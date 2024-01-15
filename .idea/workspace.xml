@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ed23bb9-7c18-4e48-9406-bbb971fdeb2f" name="Changes" comment="End of Class 2">
-      <change afterPath="$PROJECT_DIR$/future_value.py" afterDir="false" />
+    <list default="true" id="5ed23bb9-7c18-4e48-9406-bbb971fdeb2f" name="Changes" comment="Future_Value.py added">
+      <change afterPath="$PROJECT_DIR$/Classes/Classes_Constructor.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/Classes_example.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/The_product_viewer_program.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/product_example.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +54,7 @@
   "keyToString": {
     "Python.Format.executor": "Run",
     "Python.future_value.executor": "Run",
+    "Python.product_example.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
@@ -59,10 +64,15 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\steven.loveys\PycharmProjects\CP1890_OOPS\Classes" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -79,7 +89,8 @@
       <option name="presentableId" value="Default" />
       <updated>1704890289767</updated>
       <workItem from="1704890290946" duration="4793000" />
-      <workItem from="1705061582050" duration="4422000" />
+      <workItem from="1705061582050" duration="5712000" />
+      <workItem from="1705320976529" duration="2486000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1 class exercise">
       <option name="closed" value="true" />
@@ -97,18 +108,39 @@
       <option name="project" value="LOCAL" />
       <updated>1704894683895</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Future_Value.py added">
+      <option name="closed" value="true" />
+      <created>1705066356491</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1705066356491</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Day 1 class exercise" />
     <MESSAGE value="End of Class 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="End of Class 2" />
+    <MESSAGE value="Future_Value.py added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Future_Value.py added" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$product_example.coverage" NAME="product_example Coverage Results" MODIFIED="1705323300853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
     <SUITE FILE_PATH="coverage/CP1890_OOPS$Format.coverage" NAME="Format Coverage Results" MODIFIED="1704894538876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CP1890_OOPS$future_value.coverage" NAME="future_value Coverage Results" MODIFIED="1705066261630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>

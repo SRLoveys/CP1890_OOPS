@@ -1,4 +1,4 @@
-from Classes_Constructor import Product
+from Classes.Classes_Constructor import Product
 
 # Creating the products
 product1 = Product("Stanley Hammer", 9.99, 5)

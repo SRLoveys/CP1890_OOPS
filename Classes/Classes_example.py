@@ -1,5 +1,6 @@
 from dataclasses import dataclass
 
+
 @dataclass
 class Product:
     """
@@ -18,7 +19,7 @@ class Product:
 
     def getDiscountPrice(self):
         """
-
+        Returns the
         :return:
         """
         return self.price - self.getDiscountAmount()
