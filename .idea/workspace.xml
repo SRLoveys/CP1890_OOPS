@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ed23bb9-7c18-4e48-9406-bbb971fdeb2f" name="Changes" comment="End of Class 4">
+      <change afterPath="$PROJECT_DIR$/Class Exercises/Dice_roller_problem.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,6 +51,7 @@
   &quot;keyToString&quot;: {
     &quot;Python.Format.executor&quot;: &quot;Run&quot;,
     &quot;Python.The_product_viewer_program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.The_product_viewer_program_solution_2.executor&quot;: &quot;Run&quot;,
     &quot;Python.future_value.executor&quot;: &quot;Run&quot;,
     &quot;Python.product_example.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -89,6 +91,7 @@
       <workItem from="1705061582050" duration="5712000" />
       <workItem from="1705320976529" duration="5410000" />
       <workItem from="1705327247503" duration="20000" />
+      <workItem from="1705666396090" duration="5925000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1 class exercise">
       <option name="closed" value="true" />
@@ -122,7 +125,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705326223274</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="End of Class 4">
+      <option name="closed" value="true" />
+      <created>1705669145096</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705669145096</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,6 +159,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CP1890_OOPS$product_example.coverage" NAME="product_example Coverage Results" MODIFIED="1705323300853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$The_product_viewer_program_solution_2.coverage" NAME="The_product_viewer_program_solution_2 Coverage Results" MODIFIED="1705669044738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
     <SUITE FILE_PATH="coverage/CP1890_OOPS$Format.coverage" NAME="Format Coverage Results" MODIFIED="1704894538876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CP1890_OOPS$The_product_viewer_program.coverage" NAME="The_product_viewer_program Coverage Results" MODIFIED="1705325649800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
     <SUITE FILE_PATH="coverage/CP1890_OOPS$future_value.coverage" NAME="future_value Coverage Results" MODIFIED="1705066261630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
