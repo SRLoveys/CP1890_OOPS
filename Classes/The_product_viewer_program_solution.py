@@ -11,4 +11,4 @@ class Product:
         return self.price * self.discount_percent / 100
 
     def get_discount_price(self) -> float:
-        return self.price - self.get_discount_amount()
+        return self.__price - self.get_discount_amount()

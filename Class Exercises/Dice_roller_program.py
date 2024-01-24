@@ -1,8 +1,8 @@
-from dice_roller_classes import Die, Dice
+from Dice_Roller_Classes import Die, Dice
 
 
 def main():
-    print("The Dice Roller Program\n")
+    print("The Dice Roller program\n")
 
     # Get the input
     num_dice = int(input("Enter the number of dice to roll: "))
@@ -12,13 +12,13 @@ def main():
         die = Die()
         dice.add_die(die)
 
-    choice = "y"
-    while choice.lower() == "y":
+    choice = 'y'
+    while choice.lower() == 'y':
         dice.roll_all()
 
         print("YOUR ROLL: ", end="")
-        for die in dice.list_die:
-            print(die.value, end=" ")
+        for die in dice.list_dice:
+            print(die.get_value(), end=' ')
         print()
 
         choice = input("Roll again? (y/n): ")

@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ed23bb9-7c18-4e48-9406-bbb971fdeb2f" name="Changes" comment="End of Class 4">
-      <change afterPath="$PROJECT_DIR$/Class Exercises/Dice_roller_problem.py" afterDir="false" />
+    <list default="true" id="5ed23bb9-7c18-4e48-9406-bbb971fdeb2f" name="Changes" comment="End of Class 6">
+      <change afterPath="$PROJECT_DIR$/Classes/updated_product_viewer.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Classes/updated_product_viewer_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_15_2024_9_31_AM_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_15_2024_9_31_AM__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class Exercises/Dice_Roller_Classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class Exercises/Dice_Roller_Classes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Class Exercises/Dice_Roller_Program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class Exercises/Dice_Roller_Program.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Classes/The_product_viewer_program_solution.py" beforeDir="false" afterPath="$PROJECT_DIR$/Classes/The_product_viewer_program_solution.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,9 +55,12 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Python.Dice_Roller_Program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Dice_roller_program.executor&quot;: &quot;Run&quot;,
     &quot;Python.Format.executor&quot;: &quot;Run&quot;,
     &quot;Python.The_product_viewer_program.executor&quot;: &quot;Run&quot;,
     &quot;Python.The_product_viewer_program_solution_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.encapsulation_concept.executor&quot;: &quot;Run&quot;,
     &quot;Python.future_value.executor&quot;: &quot;Run&quot;,
     &quot;Python.product_example.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
@@ -70,6 +79,7 @@
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\steven.loveys\PycharmProjects\CP1890_OOPS\Classes" />
+      <recent name="C:\Users\steven.loveys\PycharmProjects\CP1890_OOPS\Class Exercises" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -92,6 +102,8 @@
       <workItem from="1705320976529" duration="5410000" />
       <workItem from="1705327247503" duration="20000" />
       <workItem from="1705666396090" duration="5925000" />
+      <workItem from="1705925427060" duration="4900000" />
+      <workItem from="1706098175157" duration="3796000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1 class exercise">
       <option name="closed" value="true" />
@@ -133,7 +145,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705669145096</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="End of Class 6">
+      <option name="closed" value="true" />
+      <created>1705928110113</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1705928110113</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,13 +175,17 @@
     <MESSAGE value="End of Class 2" />
     <MESSAGE value="Future_Value.py added" />
     <MESSAGE value="End of Class 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="End of Class 4" />
+    <MESSAGE value="End of Class 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="End of Class 6" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CP1890_OOPS$product_example.coverage" NAME="product_example Coverage Results" MODIFIED="1705323300853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
     <SUITE FILE_PATH="coverage/CP1890_OOPS$The_product_viewer_program_solution_2.coverage" NAME="The_product_viewer_program_solution_2 Coverage Results" MODIFIED="1705669044738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Dice_roller_program.coverage" NAME="Dice_roller_program Coverage Results" MODIFIED="1705927075898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Dice_Roller_Program.coverage" NAME="Dice_Roller_Program Coverage Results" MODIFIED="1706098901598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
     <SUITE FILE_PATH="coverage/CP1890_OOPS$Format.coverage" NAME="Format Coverage Results" MODIFIED="1704894538876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CP1890_OOPS$The_product_viewer_program.coverage" NAME="The_product_viewer_program Coverage Results" MODIFIED="1705325649800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$encapsulation_concept.coverage" NAME="encapsulation_concept Coverage Results" MODIFIED="1705927977177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
     <SUITE FILE_PATH="coverage/CP1890_OOPS$future_value.coverage" NAME="future_value Coverage Results" MODIFIED="1705066261630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
