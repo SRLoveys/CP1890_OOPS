@@ -114,3 +114,6 @@ def main():
             display_positions(players)
         elif choice == 2:
             add_player(players)
+        elif choice == 7:
+            print("Bye!")
+            break
