@@ -34,12 +34,15 @@ class Deck:
         else:
             return None
 
+    def count_cards(self):
+        return len(self.cards)
+
 
 def main():
     print("Card Dealer")
     deck = Deck()
     deck.shuffle()
-    print(f"\nI have shuffled {len(deck.cards)} cards.")
+    print(f"\nI have shuffled {deck.count_cards()} cards.")
     number_of_cards_dealt = int(input("\nHow many cards would you like?: "))
     print("\nHere are your cards:")
     # For loop to draw for however many times requested.
@@ -51,7 +54,7 @@ def main():
         else:
             print("Out of Cards")
             break
-    print(f"\nThere are {len(deck.cards)} cards left in the deck.")
+    print(f"\nThere are {deck.count_cards()} cards left in the deck.")
     print("\nGood luck!")
 
 
