@@ -28,7 +28,7 @@ class Deck:
         random.shuffle(self.cards)
 
     def deal_card(self):
-        # Condition to draw a pop a card as long as there are still cards in the deck.
+        # Condition to draw a pop a card as long as there are still cards in the deck
         if len(self.cards) > 0:
             return self.cards.pop()
         else:
