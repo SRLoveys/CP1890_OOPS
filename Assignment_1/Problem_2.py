@@ -48,7 +48,7 @@ def main():
     # For loop to draw for however many times requested.
     for i in range(number_of_cards_dealt):
         card = deck.deal_card()
-        # Condition to check if there are any cards remaining in the deck.
+        # Condition to check if there are any cards remaining in the deck
         if card:
             print(card.playing_card())
         else:
