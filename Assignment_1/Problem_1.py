@@ -38,7 +38,7 @@ def main():
     while True:
         base = int(input('Enter base: '))
         height = int(input('Enter height: '))
-        rectangle = Rectangle(base, height)
+        rectangle = Rectangle(height, base)
         print('Area: ', rectangle.area)
         print('Perimeter: ', rectangle.perimeter)
 
