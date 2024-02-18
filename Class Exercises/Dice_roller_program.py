@@ -1,4 +1,4 @@
-from Dice_Roller_Classes import Die, Dice
+from dice_roller_classes import Die, Dice
 
 
 def main():
@@ -18,7 +18,7 @@ def main():
 
         print("YOUR ROLL: ", end="")
         for die in dice.list_dice:
-            print(die.get_value(), end=' ')
+            print(die.get_value, end=' ')
         print()
 
         choice = input("Roll again? (y/n): ")

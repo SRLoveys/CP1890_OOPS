@@ -17,4 +17,5 @@ square_root = m.sqrt(16)
 # Floor and Ceil
 res = m.floor(12.845)
 res2 = m.ceil(12.345)
-
+print(res)
+print(res2)
