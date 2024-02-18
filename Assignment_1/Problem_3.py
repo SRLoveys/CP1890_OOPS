@@ -4,6 +4,9 @@ import csv
 
 @dataclass
 class Customer:
+
+    # Customer class that holds attributes for the customer information and uses methods to convert the information
+    # Into a printable format.
     id: str = ''
     firstName: str = ''
     lastName: str = ''
@@ -17,6 +20,7 @@ class Customer:
         return f'{self.firstName} {self.lastName}'
 
     def get_full_address(self):
+        # Method that determines the address format depending on the company attribute
         if self.company != '':
             return f'{self.company}\n{self.address}\n{self.city}, {self.state} {self.zip}'
         else:
@@ -33,6 +37,14 @@ def read_csv():
 
 
 def get_customer(customers):
+    # get_customer function to take in the list of customers information and returns a list of a
+    # specific customer's information.
+
+    # Once a customer is found it applies that information to the Customer class and assigns it to the customer_info
+    # class.
+
+    # If no customer is found the function returns None allowing the main function to determine that the ID does not
+    # Exist.
     customer_info = None
     while True:
         customerID = input('Enter customer ID: ')
@@ -53,9 +65,11 @@ def get_customer(customers):
 
 def main():
     print("Customer Viewer\n")
-    customers = read_csv()
+    customers = read_csv()      # converts the csv file into a list value
 
     while True:
+        # Gets users desired customer ID and prints the information of that customer.
+        # Allows user to continue as many times as they would like.
         customer_info = get_customer(customers)
         if customer_info is not None:
             print(customer_info.get_name())
