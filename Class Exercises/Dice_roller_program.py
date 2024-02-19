@@ -1,4 +1,4 @@
-from Dice_Roller_Classes import Die, Dice
+from dice_roller_classes import Die, Dice
 
 
 def main():
