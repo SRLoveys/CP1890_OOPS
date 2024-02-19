@@ -28,26 +28,33 @@ class Deck:
         random.shuffle(self.cards)
 
     def deal_card(self):
+        # Condition to draw a pop a card as long as there are still cards in the deck
         if len(self.cards) > 0:
             return self.cards.pop()
         else:
             return None
+
+    def count_cards(self):
+        return len(self.cards)
 
 
 def main():
     print("Card Dealer")
     deck = Deck()
     deck.shuffle()
-    print(f"\nI have shuffled {len(deck.cards)} cards.")
+    print(f"\nI have shuffled {deck.count_cards()} cards.")
     number_of_cards_dealt = int(input("\nHow many cards would you like?: "))
     print("\nHere are your cards:")
+    # For loop to draw for however many times requested.
     for i in range(number_of_cards_dealt):
         card = deck.deal_card()
+        # Condition to check if there are any cards remaining in the deck
         if card:
             print(card.playing_card())
         else:
             print("Out of Cards")
-    print(f"\nThere are {len(deck.cards)} cards left in the deck.")
+            break
+    print(f"\nThere are {deck.count_cards()} cards left in the deck.")
     print("\nGood luck!")
 
 
