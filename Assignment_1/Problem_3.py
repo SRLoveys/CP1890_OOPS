@@ -4,7 +4,6 @@ import csv
 
 @dataclass
 class Customer:
-
     # Customer class that holds attributes for the customer information and uses methods to convert the information
     # Into a printable format.
     id: str = ''
