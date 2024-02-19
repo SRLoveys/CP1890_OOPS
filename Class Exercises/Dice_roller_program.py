@@ -23,7 +23,7 @@ def main():
 
         choice = input("Roll again? (y/n): ")
 
-    print("Bye!")
+    print("Bye!.")
 
 
 if __name__ == "__main__":
