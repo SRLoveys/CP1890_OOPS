@@ -28,5 +28,3 @@ class Dice:
     @property
     def list_dice(self):
         return tuple(self.__list_die)
-
-print("test")
