@@ -4,26 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5ed23bb9-7c18-4e48-9406-bbb971fdeb2f" name="Changes" comment="End of Class 8">
-      <change afterPath="$PROJECT_DIR$/Binary Trees/basic_binary_tree_s.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Binary Trees/binaryTree_module_s.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Exercises/Inheritance/Inheritance_isinstance_exercise.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Exercises/Inheritance/Inheritance_isinstance_exercise_solution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Class Exercises/Inheritance/Inheritance_isinstance_objects.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inheritance/Dice_Roller_Classes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inheritance/Subclasses.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inheritance/overriding_defaults.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Inheritance/yield_keyword.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LinkedLists/basic_linked_list_s.py" afterDir="false" />
+    <list default="true" id="5ed23bb9-7c18-4e48-9406-bbb971fdeb2f" name="Changes" comment="S changes">
+      <change afterPath="$PROJECT_DIR$/RoshamboGame/Rock_Paper_Scissors.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/RoshamboGame/Rock_Paper_Scissors_Arun.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class Exercises/Baseball_Team_Manager_Classes_Steven.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class Exercises/Classes/Baseball_Team_Manager_Classes_Steven.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class Exercises/Baseball_Team_Manager_Steven.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class Exercises/Classes/Baseball_Team_Manager_Steven.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class Exercises/Classes/Baseball_Players.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class Exercises/Classes/Baseball_Players.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class Exercises/Classes/Dice_Roller_Program.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class Exercises/Dice_roller_program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class Exercises/Classes/Dice_roller_program.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class Exercises/PIG_Game.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class Exercises/Classes/PIG_Game.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Class Exercises/PIG_Game_Class.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class Exercises/Classes/PIG_Game_Class.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Inheritance/inheritance_basics.py" beforeDir="false" afterPath="$PROJECT_DIR$/Inheritance/inheritance_basics.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +79,7 @@
     "Python.PIG_Game_Class.executor": "Run",
     "Python.Problem_1.executor": "Run",
     "Python.Problem_2.executor": "Run",
+    "Python.Rock_Paper_Scissors_Arun.executor": "Run",
     "Python.The_product_viewer_program.executor": "Run",
     "Python.The_product_viewer_program_solution_2.executor": "Run",
     "Python.Working_With_Numbers.executor": "Run",
@@ -176,7 +161,8 @@
       <workItem from="1708293812275" duration="127000" />
       <workItem from="1708517411496" duration="6185000" />
       <workItem from="1708949179307" duration="5115000" />
-      <workItem from="1709121795564" duration="4574000" />
+      <workItem from="1709121795564" duration="5475000" />
+      <workItem from="1709294886346" duration="5467000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1 class exercise">
       <option name="closed" value="true" />
@@ -290,7 +276,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708348916887</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="S changes">
+      <option name="closed" value="true" />
+      <created>1709127056301</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1709127056301</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -316,7 +310,8 @@
     <MESSAGE value="End of Class 7" />
     <MESSAGE value="!" />
     <MESSAGE value="End of Class 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="End of Class 8" />
+    <MESSAGE value="S changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="S changes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CP1890_OOPS$datetime_exercise_invoice_Arun.coverage" NAME="datetime_exercise_invoice_Arun Coverage Results" MODIFIED="1707311687547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
@@ -338,7 +333,7 @@
     <SUITE FILE_PATH="coverage/CP1890_OOPS$Baseball_Team_Manager_Steven.coverage" NAME="Baseball_Team_Manager_Steven Coverage Results" MODIFIED="1706276519749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
     <SUITE FILE_PATH="coverage/CP1890_OOPS$datetime_examples.coverage" NAME="datetime_examples Coverage Results" MODIFIED="1706707344336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DateTime" />
     <SUITE FILE_PATH="coverage/CP1890_OOPS$Problem_2.coverage" NAME="Problem_2 Coverage Results" MODIFIED="1708292323517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment_1" />
-    <SUITE FILE_PATH="coverage/CP1890_OOPS$basic_binary_tree_s.coverage" NAME="basic_binary_tree_s Coverage Results" MODIFIED="1709123755485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binary Trees" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$basic_binary_tree_s.coverage" NAME="basic_binary_tree_s Coverage Results" MODIFIED="1709126849299" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Binary Trees" />
     <SUITE FILE_PATH="coverage/CP1890_OOPS$Baseball_Team_Manager_Classes_Steven.coverage" NAME="Baseball_Team_Manager_Classes_Steven Coverage Results" MODIFIED="1706532639941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
     <SUITE FILE_PATH="coverage/CP1890_OOPS$the_invoice_due_date_program.coverage" NAME="the_invoice_due_date_program Coverage Results" MODIFIED="1706708801142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DateTime" />
     <SUITE FILE_PATH="coverage/CP1890_OOPS$product_example.coverage" NAME="product_example Coverage Results" MODIFIED="1705323300853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
@@ -351,6 +346,7 @@
     <SUITE FILE_PATH="coverage/CP1890_OOPS$Question_2_classes.coverage" NAME="Question_2_classes Coverage Results" MODIFIED="1708090915027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
     <SUITE FILE_PATH="coverage/CP1890_OOPS$Inheritance_isinstance_exercise.coverage" NAME="Inheritance_isinstance_exercise Coverage Results" MODIFIED="1708519028038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises/Inheritance" />
     <SUITE FILE_PATH="coverage/CP1890_OOPS$dataclass_intro_s.coverage" NAME="dataclass_intro_s Coverage Results" MODIFIED="1707138592417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Decorators" />
+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Rock_Paper_Scissors_Arun.coverage" NAME="Rock_Paper_Scissors_Arun Coverage Results" MODIFIED="1709300328349" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/RoshamboGame" />
     <SUITE FILE_PATH="coverage/CP1890_OOPS$future_value.coverage" NAME="future_value Coverage Results" MODIFIED="1705066261630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CP1890_OOPS$Question_2.coverage" NAME="Question_2 Coverage Results" MODIFIED="1708091267199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
     <SUITE FILE_PATH="coverage/CP1890_OOPS$h.coverage" NAME="h Coverage Results" MODIFIED="1708026296747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
