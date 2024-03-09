@@ -22,12 +22,12 @@ class Player:
             return 0.0
 
 
-def main():
-    player1 = Player('Arun', 'Rameshbabu', 'S', 10, 10)
-    print(f'Player: {player1.fullName}')
-    print(f'Batting average: {player1.battingAvg}')
-    print('Test complete')
-
-
-if __name__ == '__main__':
-    main()
+# def main():
+#     player1 = Player('Arun', 'Rameshbabu', 'S', 10, 10)
+#     print(f'Player: {player1.fullName}')
+#     print(f'Batting average: {player1.battingAvg}')
+#     print('Test complete')
+#
+#
+# if __name__ == '__main__':
+#     main()

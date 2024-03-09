@@ -2,7 +2,7 @@ from Baseball_Team_Manager_Classes_Steven import Player
 from datetime import datetime
 
 positions = ("C", "1B", "2B", "3B", "SS",
-                 "LF", "CF", "RF", "P")
+             "LF", "CF", "RF", "P")
 
 
 def separator():
@@ -31,7 +31,7 @@ def menu_options():
     print("7 - Exit program")
 
 
-def add_player():
+def add_player(players):
     first_name = input("First name: ").title()
     last_name = input("Last name: ").title()
     position = get_player_position()
@@ -80,7 +80,7 @@ def get_hits(at_bats):
 
 
 def display_lineup(players):
-    if players == None:
+    if players is None:
         print("No players in the lineup")
     else:
         print(f'{"":3}{"Player":40}{"POS":6}{"AB":>6}{"H":>6}{"AVG":>8}')

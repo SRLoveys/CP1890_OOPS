@@ -1,0 +1,678 @@
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_1_31_2024_9_53_AM_[Changes]/shelved.patch
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2024_9_53_AM_[Changes]/shelved.patch b/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2024_9_53_AM_[Changes]/shelved.patch
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2024_9_53_AM_[Changes]/shelved.patch	(revision 2f0d433addfb33820470be913dc6f695ede0bd86)
++++ /dev/null	(revision 2f0d433addfb33820470be913dc6f695ede0bd86)
+@@ -1,152 +0,0 @@
+-Index: .idea/workspace.xml
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"5ed23bb9-7c18-4e48-9406-bbb971fdeb2f\" name=\"Changes\" comment=\"End of Class 7\">\r\n      <change beforePath=\"$PROJECT_DIR$/Class Exercises/Baseball_Team_Manager_Steven.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Class Exercises/Baseball_Team_Manager_Steven.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Class Exercises/Dice_Roller_Classes.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Class Exercises/Dice_Roller_Classes.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Class Exercises/Dice_Roller_Program.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Class Exercises/Dice_Roller_Program.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"FlaskConsoleOptions\" custom-start-script=\"import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\\nApp: %s [%s]\\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))\">\r\n    <envs>\r\n      <env key=\"FLASK_APP\" value=\"app\" />\r\n    </envs>\r\n    <option name=\"myCustomStartScript\" value=\"import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\\nApp: %s [%s]\\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))\" />\r\n    <option name=\"myEnvs\">\r\n      <map>\r\n        <entry key=\"FLASK_APP\" value=\"app\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"Class2\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2alPeiiqlwPyJomeHEpNXEBbdZm\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Python tests.Python tests in Baseball_Team_Manager_Classes_Steven.py.executor\": \"Run\",\r\n    \"Python.Baseball_Team_Manager_Classes_Steven.executor\": \"Run\",\r\n    \"Python.Baseball_Team_Manager_Steven.executor\": \"Run\",\r\n    \"Python.Dice_Roller_Program.executor\": \"Run\",\r\n    \"Python.Dice_roller_program.executor\": \"Run\",\r\n    \"Python.Format.executor\": \"Run\",\r\n    \"Python.PIG_Game.executor\": \"Run\",\r\n    \"Python.PIG_Game_Class.executor\": \"Run\",\r\n    \"Python.The_product_viewer_program.executor\": \"Run\",\r\n    \"Python.The_product_viewer_program_solution_2.executor\": \"Run\",\r\n    \"Python.encapsulation_concept.executor\": \"Run\",\r\n    \"Python.future_value.executor\": \"Run\",\r\n    \"Python.product_example.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"last_opened_file_path\": \"C:/Users/steven.loveys/AppData/Local/anaconda3/condabin/conda.bat\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"com.jetbrains.python.configuration.PythonContentEntriesConfigurable\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\steven.loveys\\PycharmProjects\\CP1890_OOPS\\Classes\" />\r\n      <recent name=\"C:\\Users\\steven.loveys\\PycharmProjects\\CP1890_OOPS\\Class Exercises\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"5ed23bb9-7c18-4e48-9406-bbb971fdeb2f\" name=\"Changes\" comment=\"\" />\r\n      <created>1704890289767</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1704890289767</updated>\r\n      <workItem from=\"1704890290946\" duration=\"4793000\" />\r\n      <workItem from=\"1705061582050\" duration=\"5712000\" />\r\n      <workItem from=\"1705320976529\" duration=\"5410000\" />\r\n      <workItem from=\"1705327247503\" duration=\"20000\" />\r\n      <workItem from=\"1705666396090\" duration=\"5925000\" />\r\n      <workItem from=\"1705925427060\" duration=\"4900000\" />\r\n      <workItem from=\"1706098175157\" duration=\"5890000\" />\r\n      <workItem from=\"1706271009403\" duration=\"5763000\" />\r\n      <workItem from=\"1706530378143\" duration=\"5418000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Day 1 class exercise\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1704890759796</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1704890759796</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"End of Class 2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1704894683895</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1704894683895</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Future_Value.py added\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1705066356491</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705066356491</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"End of Class 4\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1705326223274</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705326223274</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"End of Class 4\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1705669145096</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705669145096</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"End of Class 6\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1705928110113</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705928110113</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"End of Class 6\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706102422598</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706102422598</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"End of Class 7\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706276553917</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706276553917</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"End of Class 7\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706535079575</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706535079575</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"10\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Day 1 class exercise\" />\r\n    <MESSAGE value=\"End of Class 2\" />\r\n    <MESSAGE value=\"Future_Value.py added\" />\r\n    <MESSAGE value=\"End of Class 4\" />\r\n    <MESSAGE value=\"End of Class 6\" />\r\n    <MESSAGE value=\"End of Class 7\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"End of Class 7\" />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$product_example.coverage\" NAME=\"product_example Coverage Results\" MODIFIED=\"1705323300853\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Classes\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$.coverage\" NAME=\" Coverage Results\" MODIFIED=\"1706532605265\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Dice_Roller_Program.coverage\" NAME=\"Dice_Roller_Program Coverage Results\" MODIFIED=\"1706098901598\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Format.coverage\" NAME=\"Format Coverage Results\" MODIFIED=\"1704894538876\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$encapsulation_concept.coverage\" NAME=\"encapsulation_concept Coverage Results\" MODIFIED=\"1705927977177\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Classes\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$PIG_Game.coverage\" NAME=\"PIG_Game Coverage Results\" MODIFIED=\"1706273690417\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$future_value.coverage\" NAME=\"future_value Coverage Results\" MODIFIED=\"1705066261630\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$PIG_Game_Class.coverage\" NAME=\"PIG_Game_Class Coverage Results\" MODIFIED=\"1706273625295\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$The_product_viewer_program_solution_2.coverage\" NAME=\"The_product_viewer_program_solution_2 Coverage Results\" MODIFIED=\"1705669044738\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Classes\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Dice_roller_program.coverage\" NAME=\"Dice_roller_program Coverage Results\" MODIFIED=\"1705927075898\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Baseball_Team_Manager_Steven.coverage\" NAME=\"Baseball_Team_Manager_Steven Coverage Results\" MODIFIED=\"1706276519749\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$The_product_viewer_program.coverage\" NAME=\"The_product_viewer_program Coverage Results\" MODIFIED=\"1705325649800\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Classes\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Baseball_Team_Manager_Classes_Steven.coverage\" NAME=\"Baseball_Team_Manager_Classes_Steven Coverage Results\" MODIFIED=\"1706532639941\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n  </component>\r\n</project>
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+---- a/.idea/workspace.xml	(revision fa3d32c4b5bbba61a570b964d75f38a8e65d32c2)
+-+++ b/.idea/workspace.xml	(date 1706707262803)
+-@@ -5,7 +5,8 @@
+-   </component>
+-   <component name="ChangeListManager">
+-     <list default="true" id="5ed23bb9-7c18-4e48-9406-bbb971fdeb2f" name="Changes" comment="End of Class 7">
+--      <change beforePath="$PROJECT_DIR$/Class Exercises/Baseball_Team_Manager_Steven.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class Exercises/Baseball_Team_Manager_Steven.py" afterDir="false" />
+-+      <change afterPath="$PROJECT_DIR$/DateTime/the_invoice_due_date_program.py" afterDir="false" />
+-+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/Class Exercises/Dice_Roller_Classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class Exercises/Dice_Roller_Classes.py" afterDir="false" />
+-       <change beforePath="$PROJECT_DIR$/Class Exercises/Dice_Roller_Program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class Exercises/Dice_Roller_Program.py" afterDir="false" />
+-     </list>
+-@@ -60,6 +61,7 @@
+-     "Python.PIG_Game_Class.executor": "Run",
+-     "Python.The_product_viewer_program.executor": "Run",
+-     "Python.The_product_viewer_program_solution_2.executor": "Run",
+-+    "Python.datetime_intro.executor": "Run",
+-     "Python.encapsulation_concept.executor": "Run",
+-     "Python.future_value.executor": "Run",
+-     "Python.product_example.executor": "Run",
+-@@ -106,6 +108,7 @@
+-       <workItem from="1706098175157" duration="5890000" />
+-       <workItem from="1706271009403" duration="5763000" />
+-       <workItem from="1706530378143" duration="5418000" />
+-+      <workItem from="1706702939067" duration="4320000" />
+-     </task>
+-     <task id="LOCAL-00001" summary="Day 1 class exercise">
+-       <option name="closed" value="true" />
+-@@ -179,7 +182,15 @@
+-       <option name="project" value="LOCAL" />
+-       <updated>1706535079575</updated>
+-     </task>
+--    <option name="localTasksCounter" value="10" />
+-+    <task id="LOCAL-00010" summary="End of Class 7">
+-+      <option name="closed" value="true" />
+-+      <created>1706706159926</created>
+-+      <option name="number" value="00010" />
+-+      <option name="presentableId" value="LOCAL-00010" />
+-+      <option name="project" value="LOCAL" />
+-+      <updated>1706706159926</updated>
+-+    </task>
+-+    <option name="localTasksCounter" value="11" />
+-     <servers />
+-   </component>
+-   <component name="TypeScriptGeneratedFilesManager">
+-@@ -209,13 +220,14 @@
+-     <SUITE FILE_PATH="coverage/CP1890_OOPS$product_example.coverage" NAME="product_example Coverage Results" MODIFIED="1705323300853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+-     <SUITE FILE_PATH="coverage/CP1890_OOPS$.coverage" NAME=" Coverage Results" MODIFIED="1706532605265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+-     <SUITE FILE_PATH="coverage/CP1890_OOPS$Dice_Roller_Program.coverage" NAME="Dice_Roller_Program Coverage Results" MODIFIED="1706098901598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+--    <SUITE FILE_PATH="coverage/CP1890_OOPS$Format.coverage" NAME="Format Coverage Results" MODIFIED="1704894538876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+-+    <SUITE FILE_PATH="coverage/CP1890_OOPS$PIG_Game.coverage" NAME="PIG_Game Coverage Results" MODIFIED="1706273690417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+-     <SUITE FILE_PATH="coverage/CP1890_OOPS$encapsulation_concept.coverage" NAME="encapsulation_concept Coverage Results" MODIFIED="1705927977177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+--    <SUITE FILE_PATH="coverage/CP1890_OOPS$PIG_Game.coverage" NAME="PIG_Game Coverage Results" MODIFIED="1706273690417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+-+    <SUITE FILE_PATH="coverage/CP1890_OOPS$Format.coverage" NAME="Format Coverage Results" MODIFIED="1704894538876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+-     <SUITE FILE_PATH="coverage/CP1890_OOPS$future_value.coverage" NAME="future_value Coverage Results" MODIFIED="1705066261630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+-     <SUITE FILE_PATH="coverage/CP1890_OOPS$PIG_Game_Class.coverage" NAME="PIG_Game_Class Coverage Results" MODIFIED="1706273625295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+-     <SUITE FILE_PATH="coverage/CP1890_OOPS$The_product_viewer_program_solution_2.coverage" NAME="The_product_viewer_program_solution_2 Coverage Results" MODIFIED="1705669044738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+-     <SUITE FILE_PATH="coverage/CP1890_OOPS$Dice_roller_program.coverage" NAME="Dice_roller_program Coverage Results" MODIFIED="1705927075898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+-+    <SUITE FILE_PATH="coverage/CP1890_OOPS$datetime_intro.coverage" NAME="datetime_intro Coverage Results" MODIFIED="1706706056829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DateTime" />
+-     <SUITE FILE_PATH="coverage/CP1890_OOPS$Baseball_Team_Manager_Steven.coverage" NAME="Baseball_Team_Manager_Steven Coverage Results" MODIFIED="1706276519749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+-     <SUITE FILE_PATH="coverage/CP1890_OOPS$The_product_viewer_program.coverage" NAME="The_product_viewer_program Coverage Results" MODIFIED="1705325649800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+-     <SUITE FILE_PATH="coverage/CP1890_OOPS$Baseball_Team_Manager_Classes_Steven.coverage" NAME="Baseball_Team_Manager_Classes_Steven Coverage Results" MODIFIED="1706532639941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+-Index: DateTime/the_invoice_due_date_program.py
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/DateTime/the_invoice_due_date_program.py b/DateTime/the_invoice_due_date_program.py
+-new file mode 100644
+---- /dev/null	(date 1706707398226)
+-+++ b/DateTime/the_invoice_due_date_program.py	(date 1706707398226)
+-@@ -0,0 +1,19 @@
+-+from datetime import date, time, datetime, timedelta
+-+
+-+
+-+def title():
+-+    print("The Invoice Due Date Program")
+-+
+-+
+-+#def invoice_data():
+-+#    invoice_date = input("Enter the invoice date (MM/DD/YY: ")
+-+#    invoice_date = date.strp
+-+#    return invoice_date
+-+
+-+
+-+def main():
+-+    title()
+-+    while True:
+-+        invoice_date = input("Enter the invoice date (MM/DD/YY: ")
+-+        invoice_date = date.strptime(invoice_date, "%B %d")
+-+        current_date = date.today()
+-\ No newline at end of file
+-Index: Class Exercises/Dice_Roller_Classes.py
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>import random\r\nfrom dataclasses import dataclass\r\n\r\n\r\n@dataclass\r\nclass Die:\r\n    __value: int = 1\r\n\r\n    def roll(self):\r\n        self.__value = random.randint(1, 6)\r\n\r\n    @property\r\n    def get_value(self):\r\n        return self.__value\r\n\r\n\r\nclass Dice:\r\n    def __init__(self):\r\n        self.__list_die = []\r\n\r\n    def addDie(self, die):\r\n        self.__list_die.append(die)\r\n\r\n    def rollAll(self):\r\n        for die in self.__list_die:\r\n            die.roll()\r\n\r\n    @property\r\n    def list_dice(self):\r\n        return tuple(self.__list_die)\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/Class Exercises/Dice_Roller_Classes.py b/Class Exercises/Dice_Roller_Classes.py
+---- a/Class Exercises/Dice_Roller_Classes.py	(revision fa3d32c4b5bbba61a570b964d75f38a8e65d32c2)
+-+++ b/Class Exercises/Dice_Roller_Classes.py	(date 1706274745470)
+-@@ -18,10 +18,10 @@
+-     def __init__(self):
+-         self.__list_die = []
+- 
+--    def addDie(self, die):
+-+    def add_die(self, die):
+-         self.__list_die.append(die)
+- 
+--    def rollAll(self):
+-+    def roll_all(self):
+-         for die in self.__list_die:
+-             die.roll()
+- 
+-Index: Class Exercises/Dice_Roller_Program.py
+-IDEA additional info:
+-Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+-<+>from Dice_Roller_Classes import Die, Dice\r\n\r\n\r\ndef main():\r\n    print(\"The Dice Roller program\\n\")\r\n\r\n    # Get the input\r\n    num_dice = int(input(\"Enter the number of dice to roll: \"))\r\n\r\n    dice = Dice()\r\n    for i in range(num_dice):\r\n        die = Die()\r\n        dice.addDie(die)\r\n\r\n    choice = 'y'\r\n    while choice.lower() == 'y':\r\n        dice.rollAll()\r\n\r\n        print(\"YOUR ROLL: \", end=\"\")\r\n        for die in dice.list_dice:\r\n            print(die.get_value, end=' ')\r\n        print()\r\n\r\n        choice = input(\"Roll again? (y/n): \")\r\n\r\n    print(\"Bye!\")\r\n\r\n\r\nif __name__ == \"__main__\":\r\n    main()\r\n
+-Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+-<+>UTF-8
+-===================================================================
+-diff --git a/Class Exercises/Dice_Roller_Program.py b/Class Exercises/Dice_Roller_Program.py
+---- a/Class Exercises/Dice_Roller_Program.py	(revision fa3d32c4b5bbba61a570b964d75f38a8e65d32c2)
+-+++ b/Class Exercises/Dice_Roller_Program.py	(date 1706274745486)
+-@@ -10,15 +10,15 @@
+-     dice = Dice()
+-     for i in range(num_dice):
+-         die = Die()
+--        dice.addDie(die)
+-+        dice.add_die(die)
+- 
+-     choice = 'y'
+-     while choice.lower() == 'y':
+--        dice.rollAll()
+-+        dice.roll_all()
+- 
+-         print("YOUR ROLL: ", end="")
+-         for die in dice.list_dice:
+--            print(die.get_value, end=' ')
+-+            print(die.get_value(), end=' ')
+-         print()
+- 
+-         choice = input("Roll again? (y/n): ")
+Index: .idea/shelf/Uncommitted_changes_before_Update_at_1_31_2024_9_53_AM__Changes_.xml
+===================================================================
+diff --git a/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2024_9_53_AM__Changes_.xml b/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2024_9_53_AM__Changes_.xml
+deleted file mode 100644
+--- a/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2024_9_53_AM__Changes_.xml	(revision 2f0d433addfb33820470be913dc6f695ede0bd86)
++++ /dev/null	(revision 2f0d433addfb33820470be913dc6f695ede0bd86)
+@@ -1,4 +0,0 @@
+-<changelist name="Uncommitted_changes_before_Update_at_1_31_2024_9_53_AM_[Changes]" date="1706707415471" recycled="true" deleted="true">
+-  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2024_9_53_AM_[Changes]/shelved.patch" />
+-  <option name="DESCRIPTION" value="Uncommitted changes before Update at 1/31/2024 9:53 AM [Changes]" />
+-</changelist>
+\ No newline at end of file
+Index: Class Exercises/Timer_example_Arun.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Class Exercises/Timer_example_Arun.py b/Class Exercises/Timer_example_Arun.py
+new file mode 100644
+--- /dev/null	(date 1707480289193)
++++ b/Class Exercises/Timer_example_Arun.py	(date 1707480289193)
+@@ -0,0 +1,37 @@
++from datetime import datetime, time
++
++
++def main():
++    print("The Timer Program\n")
++
++    # Start the timer
++    input("Press Enter to start...")
++    start_time = datetime.now()
++    print("Start time: ", start_time)
++    print()
++
++    # Stop the timer
++    input("Press Enter to stop...")
++    stop_time = datetime.now()
++    print("Stop time: ", stop_time)
++    print()
++
++    # Calculate the time difference
++    elapsed_time = stop_time - start_time
++    days = elapsed_time.days
++    minutes = elapsed_time.seconds // 60
++    seconds = elapsed_time.seconds % 60
++    microseconds = elapsed_time.microseconds
++
++    hours = minutes // 60
++    minutes = minutes % 60
++
++    time_object = time(hours, minutes, seconds, microseconds)
++    print("ELAPSED TIME")
++    if days > 0:
++        print("Days: ", days)
++    print("Time: ", time_object)
++
++
++if __name__ == "__main__":
++    main()
+Index: Class Exercises/datetime_exercise_invoice_Arun.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Class Exercises/datetime_exercise_invoice_Arun.py b/Class Exercises/datetime_exercise_invoice_Arun.py
+new file mode 100644
+--- /dev/null	(date 1707480289168)
++++ b/Class Exercises/datetime_exercise_invoice_Arun.py	(date 1707480289168)
+@@ -0,0 +1,44 @@
++from datetime import datetime, timedelta
++
++
++def get_invoice_date():
++    invoice_date_str = input("Enter the invoice date (MM/DD/YY): ")
++    invoice_date = datetime.strptime(invoice_date_str, '%m/%d/%y')
++    return invoice_date
++
++
++def main():
++    print("The Invoice Due Date Program \n")
++
++    do_again = 'y'
++    while do_again.lower() == 'y':
++        invoice_date = get_invoice_date()
++        print()
++
++        # Calculations
++        due_date = invoice_date + timedelta(days=30)
++        current_date = datetime.now()
++        days_overdue = (current_date - due_date).days
++
++        # Do the display stuff
++        date_format = "%B %d, %Y"
++        print(f"Invoice Date:   {invoice_date:{date_format}}")
++        print(f"Due Date:       {due_date:{date_format}}")
++        print(f"Current Date:   {current_date:{date_format}}")
++
++        if days_overdue > 0:
++            print(f"This invoice is {days_overdue} day(s) overdue.")
++        else:
++            days_due = days_overdue * -1
++            print(f"This invoice is due in {days_due} day(s)")
++        print()
++
++        # Update the choice
++        do_again = input("Continue? (y/n): ")
++        print()
++
++    print("Thank you for using this program.")
++
++
++if __name__ == '__main__':
++    main()
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"5ed23bb9-7c18-4e48-9406-bbb971fdeb2f\" name=\"Changes\" comment=\"End of Class 8\">\r\n      <change afterPath=\"$PROJECT_DIR$/Decorators/decorators_intro_s.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Decorators/decorators_usage_s.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Class Exercises/Dice_Roller_Classes.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Class Exercises/Dice_Roller_Classes.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Class Exercises/Dice_Roller_Program.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Class Exercises/Dice_Roller_Program.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"FlaskConsoleOptions\" custom-start-script=\"import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\\nApp: %s [%s]\\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))\">\r\n    <envs>\r\n      <env key=\"FLASK_APP\" value=\"app\" />\r\n    </envs>\r\n    <option name=\"myCustomStartScript\" value=\"import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\\nApp: %s [%s]\\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))\" />\r\n    <option name=\"myEnvs\">\r\n      <map>\r\n        <entry key=\"FLASK_APP\" value=\"app\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"Class2\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2alPeiiqlwPyJomeHEpNXEBbdZm\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Python tests.Python tests in Baseball_Team_Manager_Classes_Steven.py.executor\": \"Run\",\r\n    \"Python.Baseball_Team_Manager_Classes_Steven.executor\": \"Run\",\r\n    \"Python.Baseball_Team_Manager_Steven.executor\": \"Run\",\r\n    \"Python.Dice_Roller_Program.executor\": \"Run\",\r\n    \"Python.Dice_roller_program.executor\": \"Run\",\r\n    \"Python.Format.executor\": \"Run\",\r\n    \"Python.PIG_Game.executor\": \"Run\",\r\n    \"Python.PIG_Game_Class.executor\": \"Run\",\r\n    \"Python.The_product_viewer_program.executor\": \"Run\",\r\n    \"Python.The_product_viewer_program_solution_2.executor\": \"Run\",\r\n    \"Python.datetime_examples.executor\": \"Run\",\r\n    \"Python.datetime_intro.executor\": \"Run\",\r\n    \"Python.decorators_intro_s.executor\": \"Run\",\r\n    \"Python.decorators_usage_s.executor\": \"Run\",\r\n    \"Python.encapsulation_concept.executor\": \"Run\",\r\n    \"Python.future_value.executor\": \"Run\",\r\n    \"Python.product_example.executor\": \"Run\",\r\n    \"Python.the_invoice_due_date_program.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"last_opened_file_path\": \"C:/Users/steven.loveys/AppData/Local/anaconda3/condabin/conda.bat\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"com.jetbrains.python.configuration.PythonContentEntriesConfigurable\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\steven.loveys\\PycharmProjects\\CP1890_OOPS\\Classes\" />\r\n      <recent name=\"C:\\Users\\steven.loveys\\PycharmProjects\\CP1890_OOPS\\Class Exercises\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"5ed23bb9-7c18-4e48-9406-bbb971fdeb2f\" name=\"Changes\" comment=\"\" />\r\n      <created>1704890289767</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1704890289767</updated>\r\n      <workItem from=\"1704890290946\" duration=\"4793000\" />\r\n      <workItem from=\"1705061582050\" duration=\"5712000\" />\r\n      <workItem from=\"1705320976529\" duration=\"5410000\" />\r\n      <workItem from=\"1705327247503\" duration=\"20000\" />\r\n      <workItem from=\"1705666396090\" duration=\"5925000\" />\r\n      <workItem from=\"1705925427060\" duration=\"4900000\" />\r\n      <workItem from=\"1706098175157\" duration=\"5890000\" />\r\n      <workItem from=\"1706271009403\" duration=\"5763000\" />\r\n      <workItem from=\"1706530378143\" duration=\"5418000\" />\r\n      <workItem from=\"1706702939067\" duration=\"5915000\" />\r\n      <workItem from=\"1707134898565\" duration=\"2126000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Day 1 class exercise\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1704890759796</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1704890759796</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"End of Class 2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1704894683895</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1704894683895</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Future_Value.py added\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1705066356491</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705066356491</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"End of Class 4\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1705326223274</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705326223274</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"End of Class 4\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1705669145096</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705669145096</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"End of Class 6\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1705928110113</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705928110113</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"End of Class 6\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706102422598</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706102422598</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"End of Class 7\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706276553917</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706276553917</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"End of Class 7\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706535079575</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706535079575</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"End of Class 7\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706706159926</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706706159926</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"End of Class 7\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706708845801</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706708845801</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"12\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Day 1 class exercise\" />\r\n    <MESSAGE value=\"End of Class 2\" />\r\n    <MESSAGE value=\"Future_Value.py added\" />\r\n    <MESSAGE value=\"End of Class 4\" />\r\n    <MESSAGE value=\"End of Class 6\" />\r\n    <MESSAGE value=\"End of Class 7\" />\r\n    <MESSAGE value=\"End of Class 8\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"End of Class 8\" />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$product_example.coverage\" NAME=\"product_example Coverage Results\" MODIFIED=\"1705323300853\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Classes\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$.coverage\" NAME=\" Coverage Results\" MODIFIED=\"1706532605265\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Dice_Roller_Program.coverage\" NAME=\"Dice_Roller_Program Coverage Results\" MODIFIED=\"1706098901598\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$PIG_Game.coverage\" NAME=\"PIG_Game Coverage Results\" MODIFIED=\"1706273690417\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$encapsulation_concept.coverage\" NAME=\"encapsulation_concept Coverage Results\" MODIFIED=\"1705927977177\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Classes\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Format.coverage\" NAME=\"Format Coverage Results\" MODIFIED=\"1704894538876\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$decorators_usage_s.coverage\" NAME=\"decorators_usage_s Coverage Results\" MODIFIED=\"1707136907904\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Decorators\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$decorators_intro_s.coverage\" NAME=\"decorators_intro_s Coverage Results\" MODIFIED=\"1707136245717\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Decorators\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$future_value.coverage\" NAME=\"future_value Coverage Results\" MODIFIED=\"1705066261630\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$PIG_Game_Class.coverage\" NAME=\"PIG_Game_Class Coverage Results\" MODIFIED=\"1706273625295\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$The_product_viewer_program_solution_2.coverage\" NAME=\"The_product_viewer_program_solution_2 Coverage Results\" MODIFIED=\"1705669044738\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Classes\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Dice_roller_program.coverage\" NAME=\"Dice_roller_program Coverage Results\" MODIFIED=\"1705927075898\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$datetime_intro.coverage\" NAME=\"datetime_intro Coverage Results\" MODIFIED=\"1706706056829\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/DateTime\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Baseball_Team_Manager_Steven.coverage\" NAME=\"Baseball_Team_Manager_Steven Coverage Results\" MODIFIED=\"1706276519749\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$The_product_viewer_program.coverage\" NAME=\"The_product_viewer_program Coverage Results\" MODIFIED=\"1705325649800\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Classes\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$datetime_examples.coverage\" NAME=\"datetime_examples Coverage Results\" MODIFIED=\"1706707344336\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/DateTime\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Baseball_Team_Manager_Classes_Steven.coverage\" NAME=\"Baseball_Team_Manager_Classes_Steven Coverage Results\" MODIFIED=\"1706532639941\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$the_invoice_due_date_program.coverage\" NAME=\"the_invoice_due_date_program Coverage Results\" MODIFIED=\"1706708801142\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/DateTime\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 2f0d433addfb33820470be913dc6f695ede0bd86)
++++ b/.idea/workspace.xml	(date 1708348495210)
+@@ -5,9 +5,18 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="5ed23bb9-7c18-4e48-9406-bbb971fdeb2f" name="Changes" comment="End of Class 8">
+-      <change afterPath="$PROJECT_DIR$/Decorators/decorators_intro_s.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Decorators/decorators_usage_s.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assignment/TeamName/problem1.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assignment/TeamName/problem2.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Assignment/TeamName/problem3.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Class Exercises/Timer_example_Arun.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Class Exercises/datetime_exercise_invoice_Arun.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Classes/properties_s.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/DateTime/hotel_problem_solution_a.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Inheritance/inheritance_basic.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2024_9_53_AM_[Changes]/shelved.patch" beforeDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_1_31_2024_9_53_AM__Changes_.xml" beforeDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/Class Exercises/Datetime_Hotel_reservation.PNG" beforeDir="false" afterPath="$PROJECT_DIR$/DateTime/Datetime_Hotel_reservation.PNG" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Class Exercises/Dice_Roller_Classes.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class Exercises/Dice_Roller_Classes.py" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/Class Exercises/Dice_Roller_Program.py" beforeDir="false" afterPath="$PROJECT_DIR$/Class Exercises/Dice_Roller_Program.py" afterDir="false" />
+     </list>
+@@ -60,20 +69,30 @@
+     "Python.Format.executor": "Run",
+     "Python.PIG_Game.executor": "Run",
+     "Python.PIG_Game_Class.executor": "Run",
++    "Python.Question_1.executor": "Run",
++    "Python.Question_1_Classes.executor": "Run",
++    "Python.Question_2.executor": "Run",
++    "Python.Question_2_classes.executor": "Run",
+     "Python.The_product_viewer_program.executor": "Run",
+     "Python.The_product_viewer_program_solution_2.executor": "Run",
++    "Python.Timer_example_Arun.executor": "Run",
++    "Python.dataclass_intro_s.executor": "Run",
+     "Python.datetime_examples.executor": "Run",
++    "Python.datetime_exercise_invoice_Arun.executor": "Run",
+     "Python.datetime_intro.executor": "Run",
+     "Python.decorators_intro_s.executor": "Run",
+     "Python.decorators_usage_s.executor": "Run",
+     "Python.encapsulation_concept.executor": "Run",
+     "Python.future_value.executor": "Run",
++    "Python.hotel_problem_solution_a.executor": "Run",
++    "Python.inheritance_basic.executor": "Run",
+     "Python.product_example.executor": "Run",
++    "Python.properties.executor": "Run",
+     "Python.the_invoice_due_date_program.executor": "Run",
+     "RunOnceActivity.OpenProjectViewOnStart": "true",
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "git-widget-placeholder": "master",
+-    "last_opened_file_path": "C:/Users/steven.loveys/AppData/Local/anaconda3/condabin/conda.bat",
++    "last_opened_file_path": "C:/Users/steven.loveys/Documents/GitHub/OOPSAssignment_1",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+     "node.js.selected.package.eslint": "(autodetect)",
+@@ -85,6 +104,7 @@
+ }]]></component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
++      <recent name="C:\Users\steven.loveys\PycharmProjects\CP1890_OOPS\DateTime" />
+       <recent name="C:\Users\steven.loveys\PycharmProjects\CP1890_OOPS\Classes" />
+       <recent name="C:\Users\steven.loveys\PycharmProjects\CP1890_OOPS\Class Exercises" />
+     </key>
+@@ -114,7 +134,16 @@
+       <workItem from="1706271009403" duration="5763000" />
+       <workItem from="1706530378143" duration="5418000" />
+       <workItem from="1706702939067" duration="5915000" />
+-      <workItem from="1707134898565" duration="2126000" />
++      <workItem from="1707134898565" duration="4119000" />
++      <workItem from="1707309055403" duration="3425000" />
++      <workItem from="1707399369206" duration="140000" />
++      <workItem from="1707480096898" duration="785000" />
++      <workItem from="1707482200791" duration="49000" />
++      <workItem from="1707482677519" duration="1853000" />
++      <workItem from="1707739861332" duration="2048000" />
++      <workItem from="1707743583740" duration="997000" />
++      <workItem from="1708084609681" duration="6246000" />
++      <workItem from="1708344871502" duration="3284000" />
+     </task>
+     <task id="LOCAL-00001" summary="Day 1 class exercise">
+       <option name="closed" value="true" />
+@@ -204,7 +233,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1706708845801</updated>
+     </task>
+-    <option name="localTasksCounter" value="12" />
++    <task id="LOCAL-00012" summary="End of Class 8">
++      <option name="closed" value="true" />
++      <created>1707139043982</created>
++      <option name="number" value="00012" />
++      <option name="presentableId" value="LOCAL-00012" />
++      <option name="project" value="LOCAL" />
++      <updated>1707139043982</updated>
++    </task>
++    <option name="localTasksCounter" value="13" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -232,23 +269,33 @@
+     <option name="LAST_COMMIT_MESSAGE" value="End of Class 8" />
+   </component>
+   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+-    <SUITE FILE_PATH="coverage/CP1890_OOPS$product_example.coverage" NAME="product_example Coverage Results" MODIFIED="1705323300853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+-    <SUITE FILE_PATH="coverage/CP1890_OOPS$.coverage" NAME=" Coverage Results" MODIFIED="1706532605265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$datetime_exercise_invoice_Arun.coverage" NAME="datetime_exercise_invoice_Arun Coverage Results" MODIFIED="1707311687547" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$Dice_Roller_Program.coverage" NAME="Dice_Roller_Program Coverage Results" MODIFIED="1706098901598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+-    <SUITE FILE_PATH="coverage/CP1890_OOPS$PIG_Game.coverage" NAME="PIG_Game Coverage Results" MODIFIED="1706273690417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+-    <SUITE FILE_PATH="coverage/CP1890_OOPS$encapsulation_concept.coverage" NAME="encapsulation_concept Coverage Results" MODIFIED="1705927977177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$Format.coverage" NAME="Format Coverage Results" MODIFIED="1704894538876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$PIG_Game.coverage" NAME="PIG_Game Coverage Results" MODIFIED="1707484465812" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$Question_1.coverage" NAME="Question_1 Coverage Results" MODIFIED="1708090096215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$decorators_usage_s.coverage" NAME="decorators_usage_s Coverage Results" MODIFIED="1707136907904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Decorators" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$decorators_intro_s.coverage" NAME="decorators_intro_s Coverage Results" MODIFIED="1707136245717" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Decorators" />
+-    <SUITE FILE_PATH="coverage/CP1890_OOPS$future_value.coverage" NAME="future_value Coverage Results" MODIFIED="1705066261630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$PIG_Game_Class.coverage" NAME="PIG_Game_Class Coverage Results" MODIFIED="1706273625295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$properties.coverage" NAME="properties Coverage Results" MODIFIED="1707741031064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$inheritance_basic.coverage" NAME="inheritance_basic Coverage Results" MODIFIED="1708348314055" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Inheritance" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$The_product_viewer_program_solution_2.coverage" NAME="The_product_viewer_program_solution_2 Coverage Results" MODIFIED="1705669044738" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+-    <SUITE FILE_PATH="coverage/CP1890_OOPS$Dice_roller_program.coverage" NAME="Dice_roller_program Coverage Results" MODIFIED="1705927075898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+-    <SUITE FILE_PATH="coverage/CP1890_OOPS$datetime_intro.coverage" NAME="datetime_intro Coverage Results" MODIFIED="1706706056829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DateTime" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$Baseball_Team_Manager_Steven.coverage" NAME="Baseball_Team_Manager_Steven Coverage Results" MODIFIED="1706276519749" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+-    <SUITE FILE_PATH="coverage/CP1890_OOPS$The_product_viewer_program.coverage" NAME="The_product_viewer_program Coverage Results" MODIFIED="1705325649800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$datetime_examples.coverage" NAME="datetime_examples Coverage Results" MODIFIED="1706707344336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DateTime" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$Baseball_Team_Manager_Classes_Steven.coverage" NAME="Baseball_Team_Manager_Classes_Steven Coverage Results" MODIFIED="1706532639941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$the_invoice_due_date_program.coverage" NAME="the_invoice_due_date_program Coverage Results" MODIFIED="1706708801142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DateTime" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$product_example.coverage" NAME="product_example Coverage Results" MODIFIED="1705323300853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$.coverage" NAME=" Coverage Results" MODIFIED="1706532605265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$hotel_problem_solution_a.coverage" NAME="hotel_problem_solution_a Coverage Results" MODIFIED="1707483870334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DateTime" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$encapsulation_concept.coverage" NAME="encapsulation_concept Coverage Results" MODIFIED="1705927977177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$Question_2_classes.coverage" NAME="Question_2_classes Coverage Results" MODIFIED="1708090915027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$dataclass_intro_s.coverage" NAME="dataclass_intro_s Coverage Results" MODIFIED="1707138592417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Decorators" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$future_value.coverage" NAME="future_value Coverage Results" MODIFIED="1705066261630" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$Question_2.coverage" NAME="Question_2 Coverage Results" MODIFIED="1708091267199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$Timer_example_Arun.coverage" NAME="Timer_example_Arun Coverage Results" MODIFIED="1707309496704" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$Dice_roller_program.coverage" NAME="Dice_roller_program Coverage Results" MODIFIED="1705927075898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$datetime_intro.coverage" NAME="datetime_intro Coverage Results" MODIFIED="1706706056829" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DateTime" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$Question_1_Classes.coverage" NAME="Question_1_Classes Coverage Results" MODIFIED="1708086922221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$The_product_viewer_program.coverage" NAME="The_product_viewer_program Coverage Results" MODIFIED="1705325649800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: Classes/properties_s.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Classes/properties_s.py b/Classes/properties_s.py
+new file mode 100644
+--- /dev/null	(date 1707741031059)
++++ b/Classes/properties_s.py	(date 1707741031059)
+@@ -0,0 +1,38 @@
++class Ninja:
++    def __init__(self):
++        self.name = "Arun"
++        self._skill = 5
++        self.__pid = 7754
++
++    # def get_skill(self):
++    #     return self._skill
++    #
++    # def set_skill(self, value):
++    #     self._skill = value
++
++    @property
++    def skill(self) -> int:
++        return self._skill
++
++    @skill.setter
++    def skill(self, value):
++        if value < 0:
++            raise ValueError("How can a ninja not having any skills?")
++        else:
++            self._skill = value
++
++    @skill.getter
++    def skill(self):
++        return self._skill + 50
++
++
++n = Ninja()
++print(n.name)
++print(n._skill)
++print(n._Ninja__pid)
++# print(dir(n))
++
++# n.set_skill(100)
++# print(n.get_skill())
++print(n.skill)
++n.skill = -50
+Index: Inheritance/inheritance_basic.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Inheritance/inheritance_basic.py b/Inheritance/inheritance_basic.py
+new file mode 100644
+--- /dev/null	(date 1708348314047)
++++ b/Inheritance/inheritance_basic.py	(date 1708348314047)
+@@ -0,0 +1,58 @@
++from dataclasses import dataclass
++
++
++@dataclass
++class Product:
++    name: str = ""
++    price: float = 0
++    discountPercent: int = 0
++
++    def get_discount_amount(self):
++        return self.price * (self.discountPercent / 100)
++
++    def get_discount_price(self):
++        return self.price - self.get_discount_amount()
++
++    def get_description(self):
++        return self.name
++
++
++# @dataclass
++# class Book(Product):
++#     author: str = ""
++#
++#     def get_description(self):
++#         return f"{Product.get_description(self)} by {self.author}"
++#
++#
++
++
++class Book(Product):
++    def __init__(self, name="", price=0.0, discountPercent=0, author=""):
++        Product.__init__(self, name, price, discountPercent)
++
++        self.author = author
++
++
++@dataclass
++class Movie(Product):
++    year: int = 0
++
++    def get_description(self):
++        return f"{Product.get_description(self)} {self.year}"
++
++
++product1 = Product("Quartet Marker", 2.99, 20)
++book1 = Book("The Shining", 12.00, 10, "Stephen King")
++movie1 = Movie("Joker", 12.50, 30, 2013)
++
++print(product1.get_description())
++print(product1.get_discount_price())
++print(book1.get_description())
++print(book1.get_discount_price())
++print(movie1.get_description())
++print(movie1.get_discount_price())
++
++print(isinstance(movie1, Movie))
++print(isinstance(movie1, Product))
++print(isinstance(movie1, Book))
+Index: Class Exercises/Dice_Roller_Classes.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import random\r\nfrom dataclasses import dataclass\r\n\r\n\r\n@dataclass\r\nclass Die:\r\n    __value: int = 1\r\n\r\n    def roll(self):\r\n        self.__value = random.randint(1, 6)\r\n\r\n    @property\r\n    def get_value(self):\r\n        return self.__value\r\n\r\n\r\nclass Dice:\r\n    def __init__(self):\r\n        self.__list_die = []\r\n\r\n    def addDie(self, die):\r\n        self.__list_die.append(die)\r\n\r\n    def rollAll(self):\r\n        for die in self.__list_die:\r\n            die.roll()\r\n\r\n    @property\r\n    def list_dice(self):\r\n        return tuple(self.__list_die)\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Class Exercises/Dice_Roller_Classes.py b/Class Exercises/Dice_Roller_Classes.py
+--- a/Class Exercises/Dice_Roller_Classes.py	(revision 2f0d433addfb33820470be913dc6f695ede0bd86)
++++ b/Class Exercises/Dice_Roller_Classes.py	(date 1707480289204)
+@@ -18,10 +18,10 @@
+     def __init__(self):
+         self.__list_die = []
+ 
+-    def addDie(self, die):
++    def add_die(self, die):
+         self.__list_die.append(die)
+ 
+-    def rollAll(self):
++    def roll_all(self):
+         for die in self.__list_die:
+             die.roll()
+ 
+Index: Class Exercises/Dice_Roller_Program.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from Dice_Roller_Classes import Die, Dice\r\n\r\n\r\ndef main():\r\n    print(\"The Dice Roller program\\n\")\r\n\r\n    # Get the input\r\n    num_dice = int(input(\"Enter the number of dice to roll: \"))\r\n\r\n    dice = Dice()\r\n    for i in range(num_dice):\r\n        die = Die()\r\n        dice.addDie(die)\r\n\r\n    choice = 'y'\r\n    while choice.lower() == 'y':\r\n        dice.rollAll()\r\n\r\n        print(\"YOUR ROLL: \", end=\"\")\r\n        for die in dice.list_dice:\r\n            print(die.get_value, end=' ')\r\n        print()\r\n\r\n        choice = input(\"Roll again? (y/n): \")\r\n\r\n    print(\"Bye!\")\r\n\r\n\r\nif __name__ == \"__main__\":\r\n    main()\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Class Exercises/Dice_Roller_Program.py b/Class Exercises/Dice_Roller_Program.py
+--- a/Class Exercises/Dice_Roller_Program.py	(revision 2f0d433addfb33820470be913dc6f695ede0bd86)
++++ b/Class Exercises/Dice_Roller_Program.py	(date 1707480289212)
+@@ -10,15 +10,15 @@
+     dice = Dice()
+     for i in range(num_dice):
+         die = Die()
+-        dice.addDie(die)
++        dice.add_die(die)
+ 
+     choice = 'y'
+     while choice.lower() == 'y':
+-        dice.rollAll()
++        dice.roll_all()
+ 
+         print("YOUR ROLL: ", end="")
+         for die in dice.list_dice:
+-            print(die.get_value, end=' ')
++            print(die.get_value(), end=' ')
+         print()
+ 
+         choice = input("Roll again? (y/n): ")
+Index: DateTime/hotel_problem_solution_a.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/DateTime/hotel_problem_solution_a.py b/DateTime/hotel_problem_solution_a.py
+new file mode 100644
+--- /dev/null	(date 1707484458583)
++++ b/DateTime/hotel_problem_solution_a.py	(date 1707484458583)
+@@ -0,0 +1,73 @@
++from datetime import datetime
++import locale
++
++
++def get_arrival_date():
++    while True:
++        date_str = input("Enter arrival date (YYYY-MM-DD): ")
++        try:
++            arrival_date = datetime.strptime(date_str, "%Y-%m-%d")
++        except ValueError:
++            print("Invalid date entered. Please try again\n")
++            continue
++
++        now = datetime.now()
++        today = datetime(now.year, now.month, now.day)
++        if arrival_date < today:
++            print("Enter the correct arrival date, it should be today or later. Try again\n")
++        else:
++            return arrival_date
++
++
++def get_departure_date(arrival_date):
++    while True:
++        date_str = input("Enter departure date (YYYY-MM-DD): ")
++        try:
++            departure_date = datetime.strptime(date_str, "%Y-%m-%d")
++        except ValueError:
++            print("Invalid date entered. Please try again\n")
++            continue
++
++        if departure_date <= arrival_date:
++            print("Enter the correct arrival date, it should be today or later. Try again\n")
++        else:
++            return departure_date
++
++
++def main():
++    print("The Hotel Reservation Program\n")
++
++    do_again = "y"
++    while do_again.lower() == "y":
++        # Get the datetime from user
++        arrival_date = get_arrival_date()
++        departure_date = get_departure_date(arrival_date)
++        print()
++
++        # Calculate costs
++        rate = 85.0
++        rate_message = ""
++        if arrival_date.month == 8:
++            rate = 105
++            rate_message = "(High Season)"
++        total_nights = (departure_date - arrival_date).days
++        total_cost = rate * total_nights
++
++        # Formatting
++        date_format = "%B %d, %Y"
++        locale.setlocale(locale.LC_ALL, "en_CA")
++        print(f"Arrival Date:    {arrival_date:{date_format}}")
++        print(f"Departure:       {departure_date:{date_format}}")
++        print(f"Nightly Rate:    {locale.currency(rate)} {rate_message}")
++        print(f"Total Nights:    {total_nights}")
++        print(f"Total Price:     {locale.currency(total_cost)}\n")
++
++        # Update do_again
++        do_again = input("Continue? (y/n): ")
++        print()
++
++    print("Bye!")
++
++
++if __name__ == "__main__":
++    main()
+diff --git a/Assignment/TeamName/problem1.py b/Assignment/TeamName/problem1.py
+new file mode 100644
+diff --git a/Assignment/TeamName/problem3.py b/Assignment/TeamName/problem3.py
+new file mode 100644
+diff --git a/Assignment/TeamName/problem2.py b/Assignment/TeamName/problem2.py
+new file mode 100644

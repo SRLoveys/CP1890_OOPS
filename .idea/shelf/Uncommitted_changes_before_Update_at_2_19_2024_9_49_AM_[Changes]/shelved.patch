@@ -1,0 +1,60 @@
+Index: Class Exercises/Dice_Roller_Classes.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import random\r\nfrom dataclasses import dataclass\r\n\r\n\r\n@dataclass\r\nclass Die:\r\n    __value: int = 1\r\n\r\n    def roll(self):\r\n        self.__value = random.randint(1, 6)\r\n\r\n    @property\r\n    def get_value(self):\r\n        return self.__value\r\n\r\n\r\nclass Dice:\r\n    def __init__(self):\r\n        self.__list_die = []\r\n\r\n    def addDie(self, die):\r\n        self.__list_die.append(die)\r\n\r\n    def rollAll(self):\r\n        for die in self.__list_die:\r\n            die.roll()\r\n\r\n    @property\r\n    def list_dice(self):\r\n        return tuple(self.__list_die)\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Class Exercises/Dice_Roller_Classes.py b/Class Exercises/Dice_Roller_Classes.py
+--- a/Class Exercises/Dice_Roller_Classes.py	(revision ddb3a2b48279b7a7c43f5f985ed2f6490beab692)
++++ b/Class Exercises/Dice_Roller_Classes.py	(date 1708348766051)
+@@ -18,10 +18,10 @@
+     def __init__(self):
+         self.__list_die = []
+ 
+-    def addDie(self, die):
++    def add_die(self, die):
+         self.__list_die.append(die)
+ 
+-    def rollAll(self):
++    def roll_all(self):
+         for die in self.__list_die:
+             die.roll()
+ 
+Index: Class Exercises/Dice_Roller_Program.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>from Dice_Roller_Classes import Die, Dice\r\n\r\n\r\ndef main():\r\n    print(\"The Dice Roller program\\n\")\r\n\r\n    # Get the input\r\n    num_dice = int(input(\"Enter the number of dice to roll: \"))\r\n\r\n    dice = Dice()\r\n    for i in range(num_dice):\r\n        die = Die()\r\n        dice.addDie(die)\r\n\r\n    choice = 'y'\r\n    while choice.lower() == 'y':\r\n        dice.rollAll()\r\n\r\n        print(\"YOUR ROLL: \", end=\"\")\r\n        for die in dice.list_dice:\r\n            print(die.get_value, end=' ')\r\n        print()\r\n\r\n        choice = input(\"Roll again? (y/n): \")\r\n\r\n    print(\"Bye!\")\r\n\r\n\r\nif __name__ == \"__main__\":\r\n    main()\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Class Exercises/Dice_Roller_Program.py b/Class Exercises/Dice_Roller_Program.py
+--- a/Class Exercises/Dice_Roller_Program.py	(revision ddb3a2b48279b7a7c43f5f985ed2f6490beab692)
++++ b/Class Exercises/Dice_Roller_Program.py	(date 1708348766046)
+@@ -10,21 +10,22 @@
+     dice = Dice()
+     for i in range(num_dice):
+         die = Die()
+-        dice.addDie(die)
++        dice.add_die(die)
+ 
+     choice = 'y'
+     while choice.lower() == 'y':
+-        dice.rollAll()
++        dice.roll_all()
+ 
+         print("YOUR ROLL: ", end="")
+         for die in dice.list_dice:
+-            print(die.get_value, end=' ')
++            print(die.get_value(), end=' ')
+         print()
+ 
+         choice = input("Roll again? (y/n): ")
+ 
+-    print("Bye!")
++    print("Bye!.")
+ 
+ 
+ if __name__ == "__main__":
+     main()
++
