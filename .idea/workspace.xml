@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5ed23bb9-7c18-4e48-9406-bbb971fdeb2f" name="Changes" comment="S changes">
-      <change afterPath="$PROJECT_DIR$/RoshamboGame/Rock_Paper_Scissors.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/RoshamboGame/Rock_Paper_Scissors_Arun.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,55 +63,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python tests.Python tests in Baseball_Team_Manager_Classes_Steven.py.executor": "Run",
-    "Python.Baseball_Team_Manager_Classes_Steven.executor": "Run",
-    "Python.Baseball_Team_Manager_Steven.executor": "Run",
-    "Python.Dice_Roller_Program.executor": "Run",
-    "Python.Dice_roller_program.executor": "Run",
-    "Python.Format.executor": "Run",
-    "Python.Formatting_Numbers.executor": "Run",
-    "Python.Inheritance_isinstance_exercise.executor": "Run",
-    "Python.PIG_Game.executor": "Run",
-    "Python.PIG_Game_Class.executor": "Run",
-    "Python.Problem_1.executor": "Run",
-    "Python.Problem_2.executor": "Run",
-    "Python.Rock_Paper_Scissors_Arun.executor": "Run",
-    "Python.The_product_viewer_program.executor": "Run",
-    "Python.The_product_viewer_program_solution_2.executor": "Run",
-    "Python.Working_With_Numbers.executor": "Run",
-    "Python.basic_binary_tree_s.executor": "Run",
-    "Python.basic_linked_list_s.executor": "Run",
-    "Python.binaryTree_module_s.executor": "Run",
-    "Python.class_study_2.executor": "Run",
-    "Python.datetime_examples.executor": "Run",
-    "Python.datetime_intro.executor": "Run",
-    "Python.decorators_intro_s.executor": "Run",
-    "Python.decorators_usage_s.executor": "Run",
-    "Python.encapsulation_concept.executor": "Run",
-    "Python.future_value.executor": "Run",
-    "Python.h.executor": "Run",
-    "Python.overriding_defaults.executor": "Run",
-    "Python.product_example.executor": "Run",
-    "Python.temp_future_value.executor": "Run",
-    "Python.the_invoice_due_date_program.executor": "Run",
-    "Python.updated_product_viewer_2.executor": "Run",
-    "Python.yield_keyword.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/steven.loveys/PycharmProjects/CP1890_OOPS/Inheritance",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PythonContentEntriesConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python tests.Python tests in Baseball_Team_Manager_Classes_Steven.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Baseball_Team_Manager_Classes_Steven.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Baseball_Team_Manager_Steven.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Dice_Roller_Program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Dice_roller_program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Format.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Formatting_Numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Inheritance_isinstance_exercise.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PIG_Game.executor&quot;: &quot;Run&quot;,
+    &quot;Python.PIG_Game_Class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Problem_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Problem_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Rock_Paper_Scissors_Arun.executor&quot;: &quot;Run&quot;,
+    &quot;Python.The_product_viewer_program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.The_product_viewer_program_solution_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Working_With_Numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.basic_binary_tree_s.executor&quot;: &quot;Run&quot;,
+    &quot;Python.basic_linked_list_s.executor&quot;: &quot;Run&quot;,
+    &quot;Python.binaryTree_module_s.executor&quot;: &quot;Run&quot;,
+    &quot;Python.class_study_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.datetime_examples.executor&quot;: &quot;Run&quot;,
+    &quot;Python.datetime_intro.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decorators_intro_s.executor&quot;: &quot;Run&quot;,
+    &quot;Python.decorators_usage_s.executor&quot;: &quot;Run&quot;,
+    &quot;Python.encapsulation_concept.executor&quot;: &quot;Run&quot;,
+    &quot;Python.future_value.executor&quot;: &quot;Run&quot;,
+    &quot;Python.h.executor&quot;: &quot;Run&quot;,
+    &quot;Python.overriding_defaults.executor&quot;: &quot;Run&quot;,
+    &quot;Python.product_example.executor&quot;: &quot;Run&quot;,
+    &quot;Python.temp_future_value.executor&quot;: &quot;Run&quot;,
+    &quot;Python.the_invoice_due_date_program.executor&quot;: &quot;Run&quot;,
+    &quot;Python.updated_product_viewer_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.yield_keyword.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/steven.loveys/PycharmProjects/CP1890_OOPS/Inheritance&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PythonContentEntriesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\steven.loveys\PycharmProjects\CP1890_OOPS\Inheritance" />
@@ -162,7 +160,8 @@
       <workItem from="1708517411496" duration="6185000" />
       <workItem from="1708949179307" duration="5115000" />
       <workItem from="1709121795564" duration="5475000" />
-      <workItem from="1709294886346" duration="5467000" />
+      <workItem from="1709294886346" duration="5482000" />
+      <workItem from="1710155842091" duration="1180000" />
     </task>
     <task id="LOCAL-00001" summary="Day 1 class exercise">
       <option name="closed" value="true" />
@@ -284,7 +283,15 @@
       <option name="project" value="LOCAL" />
       <updated>1709127056301</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="S changes">
+      <option name="closed" value="true" />
+      <created>1709300368602</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1709300368602</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
