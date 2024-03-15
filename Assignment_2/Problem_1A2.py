@@ -22,6 +22,7 @@ class Employee(Person):
 
 
 def main():
+    person = Person()
     print("Customer/Employee Data Entry\n")
     choice = "y"
     while choice.lower() == "y":
