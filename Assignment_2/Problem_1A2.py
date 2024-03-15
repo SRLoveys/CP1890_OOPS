@@ -22,10 +22,11 @@ class Employee(Person):
 
 
 def main():
-    print("Customer/Employee Data Entry\n")
+    person = Person()
+    print("Customer/Employee Data Entry")
     choice = "y"
     while choice.lower() == "y":
-        selection = input("Customer or Employee? (c/e): ")
+        selection = input("\nCustomer or Employee? (c/e): ")
         if selection.lower() == "c":
             person = Customer()
         elif selection.lower() == "e":
