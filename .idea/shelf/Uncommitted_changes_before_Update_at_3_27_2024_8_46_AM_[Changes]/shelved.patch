@@ -1,0 +1,317 @@
+Index: UI/future_value.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/UI/future_value.py b/UI/future_value.py
+new file mode 100644
+--- /dev/null	(date 1711365456257)
++++ b/UI/future_value.py	(date 1711365456257)
+@@ -0,0 +1,58 @@
++import locale as lc
++lc.setlocale(lc.LC_ALL, "en-ca")
++
++
++def get_monthly_investment():
++    try:
++        monthly_investment = float(input("Enter monthly investment: "))
++        return monthly_investment
++    except ValueError:
++        print("Invalid")
++
++
++def get_interest_rate():
++    try:
++        interest_rate = float(input("Enter yearly interest rate: "))
++        if interest_rate <= 0:
++            print("Please enter a number greater than zero")
++        return interest_rate
++    except ValueError:
++        print("Invalid number")
++
++
++def get_years():
++    try:
++        years = int(input("Enter the number of years: "))
++        if years <= 0:
++            print("Please enter a number greater than 0")
++        return years
++    except ValueError:
++        print("Invalid number")
++
++
++def get_future_value(monthly_investment, interest_rate, years):
++    future_value = 0
++    for i in range(years*12):
++        future_value += monthly_investment
++        monthly_interest = future_value * (interest_rate/(12*100))
++        future_value += monthly_interest
++    return future_value
++
++
++def main():
++    while True:
++        monthly_investment = get_monthly_investment()
++        interest_rate = get_interest_rate()
++        years = get_years()
++        future_value = get_future_value(monthly_investment, interest_rate, years)
++        print(f"\nMonthly investment: {lc.currency(monthly_investment, grouping=True):>15}")
++        print(f"Interest rate: {interest_rate:>20}")
++        print(f"Years: {years:>28}")
++        print(f"Future value: {lc.currency(future_value, grouping=True):>21}")
++        continue_check = input("\nContinue? (y/n): ")
++        if continue_check.lower() == "n":
++            break
++
++
++if __name__ == "__main__":
++    main()
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"5ed23bb9-7c18-4e48-9406-bbb971fdeb2f\" name=\"Changes\" comment=\"fix\">\r\n      <change afterPath=\"$PROJECT_DIR$/Databases/database_class_exercise_dbfunctions_2.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Databases/movie_list_example.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Databases/movie_list_objects.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/Databases/movie_list_program_attempt_2.py\" afterDir=\"false\" />\r\n      <change afterPath=\"$PROJECT_DIR$/UI/ui_introduction.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_18_2024_10_36_PM__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_18_2024_10_36_PM__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_11_2024_9_20_AM_[Changes]/shelved.patch\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_11_2024_9_20_AM__Changes_.xml\" beforeDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_9_2024_1_08_PM__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_9_2024_1_08_PM__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_9_2024_1_09_PM__Changes_.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_9_2024_1_09_PM__Changes_.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Assignment_2/Problem_2A2.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Assignment_2/Problem_2A2.py\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/Binary Trees/binaryTree_module.py\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/Binary Trees/binaryTree_module.py\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Python Script\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"FlaskConsoleOptions\" custom-start-script=\"import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\\nApp: %s [%s]\\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))\">\r\n    <envs>\r\n      <env key=\"FLASK_APP\" value=\"app\" />\r\n    </envs>\r\n    <option name=\"myCustomStartScript\" value=\"import sys&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;from flask.cli import ScriptInfo&#10;locals().update(ScriptInfo(create_app=None).load_app().make_shell_context())&#10;print(&quot;Python %s on %s\\nApp: %s [%s]\\nInstance: %s&quot; % (sys.version, sys.platform, app.import_name, app.env, app.instance_path))\" />\r\n    <option name=\"myEnvs\">\r\n      <map>\r\n        <entry key=\"FLASK_APP\" value=\"app\" />\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_BRANCH_BY_REPOSITORY\">\r\n      <map>\r\n        <entry key=\"$PROJECT_DIR$\" value=\"Class2\" />\r\n      </map>\r\n    </option>\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"GitHubPullRequestSearchHistory\">{\r\n  &quot;lastFilter&quot;: {\r\n    &quot;state&quot;: &quot;OPEN&quot;,\r\n    &quot;assignee&quot;: &quot;SRLoveys&quot;\r\n  }\r\n}</component>\r\n  <component name=\"GithubPullRequestsUISettings\">\r\n    <option name=\"selectedUrlAndAccountId\">\r\n      <UrlAndAccount>\r\n        <option name=\"accountId\" value=\"d141b703-2af0-46c0-9142-cb011937456b\" />\r\n        <option name=\"url\" value=\"https://github.com/SRLoveys/CP1890_OOPS.git\" />\r\n      </UrlAndAccount>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProblemsViewState\">\r\n    <option name=\"selectedTabId\" value=\"CurrentFile\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2alPeiiqlwPyJomeHEpNXEBbdZm\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\"><![CDATA[{\r\n  \"keyToString\": {\r\n    \"Python tests.Python tests in Baseball_Team_Manager_Classes_Steven.py.executor\": \"Run\",\r\n    \"Python.Baseball_Team_Manager_Classes_Steven.executor\": \"Run\",\r\n    \"Python.Baseball_Team_Manager_Steven.executor\": \"Run\",\r\n    \"Python.Dice_Roller_Program.executor\": \"Run\",\r\n    \"Python.Dice_roller_program.executor\": \"Run\",\r\n    \"Python.Format.executor\": \"Run\",\r\n    \"Python.Formatting_Numbers.executor\": \"Run\",\r\n    \"Python.Inheritance_isinstance_exercise.executor\": \"Run\",\r\n    \"Python.PIG_Game.executor\": \"Run\",\r\n    \"Python.PIG_Game_Class.executor\": \"Run\",\r\n    \"Python.Problem_1.executor\": \"Run\",\r\n    \"Python.Problem_1A2.executor\": \"Run\",\r\n    \"Python.Problem_2.executor\": \"Run\",\r\n    \"Python.Problem_2A2.executor\": \"Run\",\r\n    \"Python.Problem_3A2.executor\": \"Run\",\r\n    \"Python.Problem_4A2.executor\": \"Run\",\r\n    \"Python.Problem_5A2.executor\": \"Run\",\r\n    \"Python.Rock_Paper_Scissors_Arun.executor\": \"Run\",\r\n    \"Python.The_product_viewer_program.executor\": \"Run\",\r\n    \"Python.The_product_viewer_program_solution_2.executor\": \"Run\",\r\n    \"Python.Working_With_Numbers.executor\": \"Run\",\r\n    \"Python.basic_binary_tree_s.executor\": \"Run\",\r\n    \"Python.basic_linked_list.executor\": \"Run\",\r\n    \"Python.basic_linked_list_s.executor\": \"Run\",\r\n    \"Python.binaryTree_module_s.executor\": \"Run\",\r\n    \"Python.class_study_2.executor\": \"Run\",\r\n    \"Python.database_class_exercise_dbfunctions_2.executor\": \"Run\",\r\n    \"Python.datetime_examples.executor\": \"Run\",\r\n    \"Python.datetime_intro.executor\": \"Run\",\r\n    \"Python.decorators_intro_s.executor\": \"Run\",\r\n    \"Python.decorators_usage_s.executor\": \"Run\",\r\n    \"Python.encapsulation_concept.executor\": \"Run\",\r\n    \"Python.future_value.executor\": \"Run\",\r\n    \"Python.h.executor\": \"Run\",\r\n    \"Python.movie_list_example.executor\": \"Run\",\r\n    \"Python.overriding_defaults.executor\": \"Run\",\r\n    \"Python.product_example.executor\": \"Run\",\r\n    \"Python.temp_future_value.executor\": \"Run\",\r\n    \"Python.the_invoice_due_date_program.executor\": \"Run\",\r\n    \"Python.ui_introduction.executor\": \"Run\",\r\n    \"Python.updated_product_viewer_2.executor\": \"Run\",\r\n    \"Python.yield_keyword.executor\": \"Run\",\r\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\r\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\r\n    \"SHARE_PROJECT_CONFIGURATION_FILES\": \"true\",\r\n    \"git-widget-placeholder\": \"master\",\r\n    \"last_opened_file_path\": \"C:/Users/steven.loveys/PycharmProjects/CP1890_OOPS/Inheritance\",\r\n    \"node.js.detected.package.eslint\": \"true\",\r\n    \"node.js.detected.package.tslint\": \"true\",\r\n    \"node.js.selected.package.eslint\": \"(autodetect)\",\r\n    \"node.js.selected.package.tslint\": \"(autodetect)\",\r\n    \"nodejs_package_manager_path\": \"npm\",\r\n    \"settings.editor.selected.configurable\": \"com.jetbrains.python.configuration.PythonContentEntriesConfigurable\",\r\n    \"vue.rearranger.settings.migration\": \"true\"\r\n  }\r\n}]]></component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\steven.loveys\\PycharmProjects\\CP1890_OOPS\\Inheritance\" />\r\n    </key>\r\n    <key name=\"MoveFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\steven.loveys\\PycharmProjects\\CP1890_OOPS\\Class Exercises\\Classes\" />\r\n      <recent name=\"C:\\Users\\Sheld\\PycharmProjects\\Assignment1\\Assignment_1\" />\r\n      <recent name=\"C:\\Users\\slove\\PycharmProjects\\CP1890_OOPS\\Test_Study\" />\r\n      <recent name=\"C:\\Users\\steven.loveys\\PycharmProjects\\CP1890_OOPS\\Classes\" />\r\n      <recent name=\"C:\\Users\\steven.loveys\\PycharmProjects\\CP1890_OOPS\\Class Exercises\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"bundled-python-sdk-50da183f06c8-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13135.95\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"5ed23bb9-7c18-4e48-9406-bbb971fdeb2f\" name=\"Changes\" comment=\"\" />\r\n      <created>1704890289767</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1704890289767</updated>\r\n      <workItem from=\"1704890290946\" duration=\"4793000\" />\r\n      <workItem from=\"1705061582050\" duration=\"5712000\" />\r\n      <workItem from=\"1705320976529\" duration=\"5410000\" />\r\n      <workItem from=\"1705327247503\" duration=\"20000\" />\r\n      <workItem from=\"1705666396090\" duration=\"5925000\" />\r\n      <workItem from=\"1705925427060\" duration=\"4900000\" />\r\n      <workItem from=\"1706098175157\" duration=\"5890000\" />\r\n      <workItem from=\"1706271009403\" duration=\"5763000\" />\r\n      <workItem from=\"1706530378143\" duration=\"5418000\" />\r\n      <workItem from=\"1706702939067\" duration=\"5915000\" />\r\n      <workItem from=\"1707134898565\" duration=\"2126000\" />\r\n      <workItem from=\"1707361210887\" duration=\"237000\" />\r\n      <workItem from=\"1707433219039\" duration=\"2217000\" />\r\n      <workItem from=\"1708024170065\" duration=\"12881000\" />\r\n      <workItem from=\"1708264139610\" duration=\"5366000\" />\r\n      <workItem from=\"1708292187883\" duration=\"990000\" />\r\n      <workItem from=\"1708293393210\" duration=\"303000\" />\r\n      <workItem from=\"1708293812275\" duration=\"127000\" />\r\n      <workItem from=\"1708517411496\" duration=\"6185000\" />\r\n      <workItem from=\"1708949179307\" duration=\"5115000\" />\r\n      <workItem from=\"1709121795564\" duration=\"5475000\" />\r\n      <workItem from=\"1709294886346\" duration=\"5467000\" />\r\n      <workItem from=\"1710377736933\" duration=\"7869000\" />\r\n      <workItem from=\"1710458164741\" duration=\"6679000\" />\r\n      <workItem from=\"1710502866970\" duration=\"9000\" />\r\n      <workItem from=\"1710502907938\" duration=\"13000\" />\r\n      <workItem from=\"1710502976557\" duration=\"9000\" />\r\n      <workItem from=\"1710505815638\" duration=\"16000\" />\r\n      <workItem from=\"1710506304389\" duration=\"23000\" />\r\n      <workItem from=\"1710507762978\" duration=\"1000\" />\r\n      <workItem from=\"1710760251190\" duration=\"203000\" />\r\n      <workItem from=\"1710760481671\" duration=\"299000\" />\r\n      <workItem from=\"1710760802136\" duration=\"4678000\" />\r\n      <workItem from=\"1710850481424\" duration=\"624000\" />\r\n      <workItem from=\"1710851197907\" duration=\"153000\" />\r\n      <workItem from=\"1710851373242\" duration=\"98000\" />\r\n      <workItem from=\"1710932866632\" duration=\"5012000\" />\r\n      <workItem from=\"1711105744050\" duration=\"3838000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"Day 1 class exercise\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1704890759796</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1704890759796</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"End of Class 2\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1704894683895</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1704894683895</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"Future_Value.py added\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1705066356491</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705066356491</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"End of Class 4\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1705326223274</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705326223274</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00005\" summary=\"End of Class 4\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1705669145096</created>\r\n      <option name=\"number\" value=\"00005\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00005\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705669145096</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00006\" summary=\"End of Class 6\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1705928110113</created>\r\n      <option name=\"number\" value=\"00006\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00006\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1705928110113</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00007\" summary=\"End of Class 6\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706102422598</created>\r\n      <option name=\"number\" value=\"00007\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00007\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706102422598</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00008\" summary=\"End of Class 7\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706276553917</created>\r\n      <option name=\"number\" value=\"00008\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00008\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706276553917</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00009\" summary=\"End of Class 7\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706535079575</created>\r\n      <option name=\"number\" value=\"00009\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00009\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706535079575</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00010\" summary=\"End of Class 7\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706706159926</created>\r\n      <option name=\"number\" value=\"00010\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00010\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706706159926</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00011\" summary=\"End of Class 7\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1706708845801</created>\r\n      <option name=\"number\" value=\"00011\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00011\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1706708845801</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00012\" summary=\"!\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1708292492067</created>\r\n      <option name=\"number\" value=\"00012\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00012\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1708292492067</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00013\" summary=\"!\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1708293130400</created>\r\n      <option name=\"number\" value=\"00013\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00013\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1708293130400</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00014\" summary=\"End of Class 8\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1708348916887</created>\r\n      <option name=\"number\" value=\"00014\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00014\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1708348916887</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00015\" summary=\"S changes\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1709127056301</created>\r\n      <option name=\"number\" value=\"00015\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00015\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1709127056301</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00016\" summary=\"fix\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710378264485</created>\r\n      <option name=\"number\" value=\"00016\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00016\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710378264485</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00017\" summary=\"fix\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710387748798</created>\r\n      <option name=\"number\" value=\"00017\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00017\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710387748798</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00018\" summary=\"fix\">\r\n      <option name=\"closed\" value=\"true\" />\r\n      <created>1710473292772</created>\r\n      <option name=\"number\" value=\"00018\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00018\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1710473292772</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"19\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <MESSAGE value=\"Day 1 class exercise\" />\r\n    <MESSAGE value=\"End of Class 2\" />\r\n    <MESSAGE value=\"Future_Value.py added\" />\r\n    <MESSAGE value=\"End of Class 4\" />\r\n    <MESSAGE value=\"End of Class 6\" />\r\n    <MESSAGE value=\"End of Class 7\" />\r\n    <MESSAGE value=\"!\" />\r\n    <MESSAGE value=\"End of Class 8\" />\r\n    <MESSAGE value=\"S changes\" />\r\n    <MESSAGE value=\"fix\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"fix\" />\r\n  </component>\r\n  <component name=\"com.intellij.coverage.CoverageDataManagerImpl\">\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$datetime_exercise_invoice_Arun.coverage\" NAME=\"datetime_exercise_invoice_Arun Coverage Results\" MODIFIED=\"1707311687547\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$binaryTree_module_s.coverage\" NAME=\"binaryTree_module_s Coverage Results\" MODIFIED=\"1709125512213\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Binary Trees\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$updated_product_viewer_2.coverage\" NAME=\"updated_product_viewer_2 Coverage Results\" MODIFIED=\"1708052523440\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Classes\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$overriding_defaults.coverage\" NAME=\"overriding_defaults Coverage Results\" MODIFIED=\"1708522829238\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Inheritance\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$PIG_Game_Class.coverage\" NAME=\"PIG_Game_Class Coverage Results\" MODIFIED=\"1706273625295\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$properties.coverage\" NAME=\"properties Coverage Results\" MODIFIED=\"1707741031064\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Classes\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Problem_5A2.coverage\" NAME=\"Problem_5A2 Coverage Results\" MODIFIED=\"1710473245301\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Assignment_2\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$class_study_2.coverage\" NAME=\"class_study_2 Coverage Results\" MODIFIED=\"1708045084268\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Test_Study\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$datetime_examples.coverage\" NAME=\"datetime_examples Coverage Results\" MODIFIED=\"1706707344336\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/DateTime\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Problem_2.coverage\" NAME=\"Problem_2 Coverage Results\" MODIFIED=\"1708292323517\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Assignment_1\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Baseball_Team_Manager_Classes_Steven.coverage\" NAME=\"Baseball_Team_Manager_Classes_Steven Coverage Results\" MODIFIED=\"1706532639941\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$the_invoice_due_date_program.coverage\" NAME=\"the_invoice_due_date_program Coverage Results\" MODIFIED=\"1706708801142\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/DateTime\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$.coverage\" NAME=\" Coverage Results\" MODIFIED=\"1706532605265\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Working_With_Numbers.coverage\" NAME=\"Working_With_Numbers Coverage Results\" MODIFIED=\"1708041321179\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Working With Numbers\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$hotel_problem_solution_a.coverage\" NAME=\"hotel_problem_solution_a Coverage Results\" MODIFIED=\"1707483870334\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/DateTime\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$basic_linked_list_s.coverage\" NAME=\"basic_linked_list_s Coverage Results\" MODIFIED=\"1708953828775\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/LinkedLists\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Question_2_classes.coverage\" NAME=\"Question_2_classes Coverage Results\" MODIFIED=\"1708090915027\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/TEST\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$dataclass_intro_s.coverage\" NAME=\"dataclass_intro_s Coverage Results\" MODIFIED=\"1707138592417\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Decorators\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Question_2.coverage\" NAME=\"Question_2 Coverage Results\" MODIFIED=\"1708091267199\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/TEST\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$database_class_exercise_dbfunctions_2.coverage\" NAME=\"database_class_exercise_dbfunctions_2 Coverage Results\" MODIFIED=\"1710936046599\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Databases\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Formatting_Numbers.coverage\" NAME=\"Formatting_Numbers Coverage Results\" MODIFIED=\"1708041872097\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Working With Numbers\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$basic_linked_list.coverage\" NAME=\"basic_linked_list Coverage Results\" MODIFIED=\"1710473632001\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/LinkedLists\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Dice_roller_program.coverage\" NAME=\"Dice_roller_program Coverage Results\" MODIFIED=\"1705927075898\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$datetime_intro.coverage\" NAME=\"datetime_intro Coverage Results\" MODIFIED=\"1706706056829\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/DateTime\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$movie_list_example.coverage\" NAME=\"movie_list_example Coverage Results\" MODIFIED=\"1710764920990\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Databases\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Problem_1.coverage\" NAME=\"Problem_1 Coverage Results\" MODIFIED=\"1708292749101\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Assignment_1\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Dice_Roller_Program.coverage\" NAME=\"Dice_Roller_Program Coverage Results\" MODIFIED=\"1706098901598\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Problem_4A2.coverage\" NAME=\"Problem_4A2 Coverage Results\" MODIFIED=\"1710499822537\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Assignment_2\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Format.coverage\" NAME=\"Format Coverage Results\" MODIFIED=\"1704894538876\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$PIG_Game.coverage\" NAME=\"PIG_Game Coverage Results\" MODIFIED=\"1707484465812\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Question_1.coverage\" NAME=\"Question_1 Coverage Results\" MODIFIED=\"1708090096215\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/TEST\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$decorators_usage_s.coverage\" NAME=\"decorators_usage_s Coverage Results\" MODIFIED=\"1707136907904\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Decorators\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$decorators_intro_s.coverage\" NAME=\"decorators_intro_s Coverage Results\" MODIFIED=\"1707136245717\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Decorators\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$inheritance_basic.coverage\" NAME=\"inheritance_basic Coverage Results\" MODIFIED=\"1708348314055\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Inheritance\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$The_product_viewer_program_solution_2.coverage\" NAME=\"The_product_viewer_program_solution_2 Coverage Results\" MODIFIED=\"1705669044738\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Classes\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Baseball_Team_Manager_Steven.coverage\" NAME=\"Baseball_Team_Manager_Steven Coverage Results\" MODIFIED=\"1706276519749\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Problem_1A2.coverage\" NAME=\"Problem_1A2 Coverage Results\" MODIFIED=\"1710473412159\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Assignment_2\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$basic_binary_tree_s.coverage\" NAME=\"basic_binary_tree_s Coverage Results\" MODIFIED=\"1709126849299\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Binary Trees\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$product_example.coverage\" NAME=\"product_example Coverage Results\" MODIFIED=\"1705323300853\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Classes\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$yield_keyword.coverage\" NAME=\"yield_keyword Coverage Results\" MODIFIED=\"1708519649241\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Inheritance\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Problem_2A2.coverage\" NAME=\"Problem_2A2 Coverage Results\" MODIFIED=\"1710850806519\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Assignment_2\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$encapsulation_concept.coverage\" NAME=\"encapsulation_concept Coverage Results\" MODIFIED=\"1705927977177\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Classes\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Inheritance_isinstance_exercise.coverage\" NAME=\"Inheritance_isinstance_exercise Coverage Results\" MODIFIED=\"1708519028038\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises/Inheritance\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Rock_Paper_Scissors_Arun.coverage\" NAME=\"Rock_Paper_Scissors_Arun Coverage Results\" MODIFIED=\"1709300328349\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/RoshamboGame\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$future_value.coverage\" NAME=\"future_value Coverage Results\" MODIFIED=\"1705066261630\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Problem_3A2.coverage\" NAME=\"Problem_3A2 Coverage Results\" MODIFIED=\"1710473446777\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Assignment_2\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$h.coverage\" NAME=\"h Coverage Results\" MODIFIED=\"1708026296747\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Timer_example_Arun.coverage\" NAME=\"Timer_example_Arun Coverage Results\" MODIFIED=\"1707309496704\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Class Exercises\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$Question_1_Classes.coverage\" NAME=\"Question_1_Classes Coverage Results\" MODIFIED=\"1708086922221\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/TEST\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$The_product_viewer_program.coverage\" NAME=\"The_product_viewer_program Coverage Results\" MODIFIED=\"1705325649800\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Classes\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$temp_future_value.coverage\" NAME=\"temp_future_value Coverage Results\" MODIFIED=\"1708043478865\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/Working With Numbers\" />\r\n    <SUITE FILE_PATH=\"coverage/CP1890_OOPS$ui_introduction.coverage\" NAME=\"ui_introduction Coverage Results\" MODIFIED=\"1711109905874\" SOURCE_PROVIDER=\"com.intellij.coverage.DefaultCoverageFileProvider\" RUNNER=\"coverage.py\" COVERAGE_BY_TEST_ENABLED=\"true\" COVERAGE_TRACING_ENABLED=\"false\" WORKING_DIRECTORY=\"$PROJECT_DIR$/UI\" />\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision aa38dce028c0c60ab99185b3f5095731711d6feb)
++++ b/.idea/workspace.xml	(date 1711369594486)
+@@ -5,19 +5,11 @@
+   </component>
+   <component name="ChangeListManager">
+     <list default="true" id="5ed23bb9-7c18-4e48-9406-bbb971fdeb2f" name="Changes" comment="fix">
+-      <change afterPath="$PROJECT_DIR$/Databases/database_class_exercise_dbfunctions_2.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Databases/movie_list_example.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Databases/movie_list_objects.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/Databases/movie_list_program_attempt_2.py" afterDir="false" />
+-      <change afterPath="$PROJECT_DIR$/UI/ui_introduction.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_18_2024_10_36_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2_18_2024_10_36_PM__Changes_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_11_2024_9_20_AM_[Changes]/shelved.patch" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_11_2024_9_20_AM__Changes_.xml" beforeDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_9_2024_1_08_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_9_2024_1_08_PM__Changes_.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_9_2024_1_09_PM__Changes_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_3_9_2024_1_09_PM__Changes_.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/UI/future_value.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/UI/ui_exercise.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/UI/ui_exercise_A.py" afterDir="false" />
+       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Assignment_2/Problem_2A2.py" beforeDir="false" afterPath="$PROJECT_DIR$/Assignment_2/Problem_2A2.py" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/Binary Trees/binaryTree_module.py" beforeDir="false" afterPath="$PROJECT_DIR$/Binary Trees/binaryTree_module.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/UI/ui_introduction.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/ui_introduction.py" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -116,6 +108,8 @@
+     "Python.product_example.executor": "Run",
+     "Python.temp_future_value.executor": "Run",
+     "Python.the_invoice_due_date_program.executor": "Run",
++    "Python.ui_exercise.executor": "Run",
++    "Python.ui_exercise_A.executor": "Debug",
+     "Python.ui_introduction.executor": "Run",
+     "Python.updated_product_viewer_2.executor": "Run",
+     "Python.yield_keyword.executor": "Run",
+@@ -123,7 +117,7 @@
+     "RunOnceActivity.ShowReadmeOnStart": "true",
+     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+     "git-widget-placeholder": "master",
+-    "last_opened_file_path": "C:/Users/steven.loveys/PycharmProjects/CP1890_OOPS/Inheritance",
++    "last_opened_file_path": "C:/Users/steven.loveys/PycharmProjects/CP1890_OOPS/UI",
+     "node.js.detected.package.eslint": "true",
+     "node.js.detected.package.tslint": "true",
+     "node.js.selected.package.eslint": "(autodetect)",
+@@ -135,6 +129,7 @@
+ }]]></component>
+   <component name="RecentsManager">
+     <key name="CopyFile.RECENT_KEYS">
++      <recent name="C:\Users\steven.loveys\PycharmProjects\CP1890_OOPS\UI" />
+       <recent name="C:\Users\steven.loveys\PycharmProjects\CP1890_OOPS\Inheritance" />
+     </key>
+     <key name="MoveFile.RECENT_KEYS">
+@@ -197,7 +192,8 @@
+       <workItem from="1710851197907" duration="153000" />
+       <workItem from="1710851373242" duration="98000" />
+       <workItem from="1710932866632" duration="5012000" />
+-      <workItem from="1711105744050" duration="3838000" />
++      <workItem from="1711105744050" duration="5175000" />
++      <workItem from="1711365176817" duration="3933000" />
+     </task>
+     <task id="LOCAL-00001" summary="Day 1 class exercise">
+       <option name="closed" value="true" />
+@@ -343,7 +339,15 @@
+       <option name="project" value="LOCAL" />
+       <updated>1710473292772</updated>
+     </task>
+-    <option name="localTasksCounter" value="19" />
++    <task id="LOCAL-00019" summary="fix">
++      <option name="closed" value="true" />
++      <created>1711110312393</created>
++      <option name="number" value="00019" />
++      <option name="presentableId" value="LOCAL-00019" />
++      <option name="project" value="LOCAL" />
++      <updated>1711110312394</updated>
++    </task>
++    <option name="localTasksCounter" value="20" />
+     <servers />
+   </component>
+   <component name="TypeScriptGeneratedFilesManager">
+@@ -382,16 +386,18 @@
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$properties.coverage" NAME="properties Coverage Results" MODIFIED="1707741031064" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$Problem_5A2.coverage" NAME="Problem_5A2 Coverage Results" MODIFIED="1710473245301" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment_2" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$class_study_2.coverage" NAME="class_study_2 Coverage Results" MODIFIED="1708045084268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Test_Study" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$ui_exercise_A.coverage" NAME="ui_exercise_A Coverage Results" MODIFIED="1711368386090" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$datetime_examples.coverage" NAME="datetime_examples Coverage Results" MODIFIED="1706707344336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DateTime" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$Problem_2.coverage" NAME="Problem_2 Coverage Results" MODIFIED="1708292323517" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Assignment_1" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$Baseball_Team_Manager_Classes_Steven.coverage" NAME="Baseball_Team_Manager_Classes_Steven Coverage Results" MODIFIED="1706532639941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$the_invoice_due_date_program.coverage" NAME="the_invoice_due_date_program Coverage Results" MODIFIED="1706708801142" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DateTime" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$.coverage" NAME=" Coverage Results" MODIFIED="1706532605265" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Class Exercises" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$Working_With_Numbers.coverage" NAME="Working_With_Numbers Coverage Results" MODIFIED="1708041321179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Working With Numbers" />
+-    <SUITE FILE_PATH="coverage/CP1890_OOPS$hotel_problem_solution_a.coverage" NAME="hotel_problem_solution_a Coverage Results" MODIFIED="1707483870334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DateTime" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$basic_linked_list_s.coverage" NAME="basic_linked_list_s Coverage Results" MODIFIED="1708953828775" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/LinkedLists" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$hotel_problem_solution_a.coverage" NAME="hotel_problem_solution_a Coverage Results" MODIFIED="1707483870334" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/DateTime" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$Question_2_classes.coverage" NAME="Question_2_classes Coverage Results" MODIFIED="1708090915027" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$dataclass_intro_s.coverage" NAME="dataclass_intro_s Coverage Results" MODIFIED="1707138592417" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Decorators" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$ui_exercise.coverage" NAME="ui_exercise Coverage Results" MODIFIED="1711367371482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$Question_2.coverage" NAME="Question_2 Coverage Results" MODIFIED="1708091267199" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$database_class_exercise_dbfunctions_2.coverage" NAME="database_class_exercise_dbfunctions_2 Coverage Results" MODIFIED="1710936046599" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Databases" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$Formatting_Numbers.coverage" NAME="Formatting_Numbers Coverage Results" MODIFIED="1708041872097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Working With Numbers" />
+@@ -425,6 +431,6 @@
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$Question_1_Classes.coverage" NAME="Question_1_Classes Coverage Results" MODIFIED="1708086922221" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TEST" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$The_product_viewer_program.coverage" NAME="The_product_viewer_program Coverage Results" MODIFIED="1705325649800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Classes" />
+     <SUITE FILE_PATH="coverage/CP1890_OOPS$temp_future_value.coverage" NAME="temp_future_value Coverage Results" MODIFIED="1708043478865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Working With Numbers" />
+-    <SUITE FILE_PATH="coverage/CP1890_OOPS$ui_introduction.coverage" NAME="ui_introduction Coverage Results" MODIFIED="1711109905874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
++    <SUITE FILE_PATH="coverage/CP1890_OOPS$ui_introduction.coverage" NAME="ui_introduction Coverage Results" MODIFIED="1711365853030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: UI/ui_exercise_A.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/UI/ui_exercise_A.py b/UI/ui_exercise_A.py
+new file mode 100644
+--- /dev/null	(date 1711368513956)
++++ b/UI/ui_exercise_A.py	(date 1711368513956)
+@@ -0,0 +1,13 @@
++import tkinter as tk
++from tkinter import ttk
++
++# Create an empty window
++first_window = tk.Tk()
++first_window.title("My first GUI")
++first_window.geometry("400x300")
++
++def clicked_button1():
++    first_window.title("Yes")
++    name = name_text.get()
++    if name == '':
++        response = 
+\ No newline at end of file
+Index: UI/ui_introduction.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>import tkinter as tk\r\nfrom tkinter import ttk\r\n\r\n# Create an empty window\r\nfirst_window = tk.Tk()\r\nfirst_window.title(\"My first GUI\")\r\nfirst_window.geometry(\"400x300\")\r\n\r\nframe = ttk.Frame(first_window, padding=\"10 10 10 10\")\r\nframe.pack(fill=\"both\", expand=True)\r\n\r\n\r\ndef clicked_button1():\r\n    first_window.title(\"Yes!, I am the cool button\")\r\n    name = name_text.get()\r\n    about_text.set(f\"{name} is cool\")\r\n\r\n\r\ndef clicked_button2():\r\n    first_window.destroy()\r\n\r\n\r\nname_label = ttk.Label(frame, text=\"Name\")\r\nname_label.grid(column=0, row=0, sticky=tk.E)\r\n# name_label.pack()\r\nname_text = tk.StringVar()\r\nname_entry = ttk.Entry(frame, width=25, textvariable=name_text)\r\nname_entry.grid(column=1, row=0)\r\n# name_entry.pack()\r\nabout_label = ttk.Label(frame, text=\"About\")\r\nabout_label.grid(column=0, row=1, sticky=tk.E)\r\n# about_label.pack()\r\nabout_text = tk.StringVar()\r\nabout_entry = ttk.Entry(frame, width=25, textvariable=about_text, state=\"readonly\")\r\nabout_entry.grid(column=1, row=1)\r\n# about_entry.pack()\r\n\r\nbutton1 = ttk.Button(frame, text=\"I'm cool!\", command=clicked_button1)\r\nbutton1.grid(column=0, row=2)\r\nbutton2 = ttk.Button(frame, text=\"No, i'm cool!\", command=clicked_button2)\r\nbutton2.grid(column=1, row=2)\r\n# button1.pack()\r\n# button2.pack()\r\n\r\n\r\nfor child in frame.winfo_children():\r\n    child.grid_configure(padx=5, pady=3)\r\n\r\nfirst_window.mainloop()\r\n
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/UI/ui_introduction.py b/UI/ui_introduction.py
+--- a/UI/ui_introduction.py	(revision aa38dce028c0c60ab99185b3f5095731711d6feb)
++++ b/UI/ui_introduction.py	(date 1711365609496)
+@@ -43,7 +43,35 @@
+ # button2.pack()
+ 
+ 
++def clicked_button2():
++    first_window.destroy()
++
++
++name_label = ttk.Label(frame, text="Name")
++name_label.grid(column=0, row=0, sticky=tk.E)
++#name_label.pack()
++name_text = tk.StringVar()
++name_entry = ttk.Entry(frame, width=25, textvariable=name_text)
++name_entry.grid(column=1, row=0)
++#name_entry.pack()
++about_label = ttk.Label(frame, text="About")
++about_label.grid(column=0, row=1, sticky=tk.E)
++#about_label.pack()
++about_text = tk.StringVar()
++about_entry = ttk.Entry(frame, width=25, textvariable=about_text, state="readonly")
++about_entry.grid(column=1, row=1)
++#about_entry.pack()
++
++button1 = ttk.Button(frame, text="I'm cool!", command=clicked_button1)
++button1.grid(column=0, row=2)
++button2 = ttk.Button(frame, text="No, I'm cool!", command=clicked_button2)
++button2.grid(column=1, row=2)
++#button1.pack()
++#button2.pack()
++
++
+ for child in frame.winfo_children():
+     child.grid_configure(padx=5, pady=3)
+ 
++
+ first_window.mainloop()
+Index: UI/ui_exercise.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/UI/ui_exercise.py b/UI/ui_exercise.py
+new file mode 100644
+--- /dev/null	(date 1711367503208)
++++ b/UI/ui_exercise.py	(date 1711367503208)
+@@ -0,0 +1,53 @@
++from future_value import get_monthly_investment, get_interest_rate, get_future_value, get_years
++import tkinter as tk
++from tkinter import ttk
++
++first_window = tk.Tk()
++first_window.title("Future Value Calculator")
++first_window.geometry("400x300")
++
++frame = ttk.Frame(first_window, padding="10 10 10 10")
++frame.pack(fill="both", expand=True)
++
++monthly_label = ttk.Label(frame, text="Monthly Investment: ")
++monthly_label.grid(column=0, row=0, sticky=tk.E)
++monthly_text = tk.DoubleVar()
++monthly_entry = ttk.Entry(frame, width=25, textvariable=monthly_text)
++monthly_entry.grid(column=1, row=0, columnspan=2)
++
++yearly_label = ttk.Label(frame, text="Yearly Interest Rate: ")
++yearly_label.grid(column=0, row=1, sticky=tk.E)
++yearly_text = tk.DoubleVar()
++yearly_entry = ttk.Entry(frame, width=25, textvariable=yearly_text)
++yearly_entry.grid(column=1, row=1, columnspan=2)
++
++years_label = ttk.Label(frame, text="Years: ")
++years_label.grid(column=0, row=2, sticky=tk.E)
++years_text = tk.IntVar()
++years_entry = ttk.Entry(frame, width=25, textvariable=years_text)
++years_entry.grid(column=1, row=2, columnspan=2)
++
++future_label = ttk.Label(frame, text="Future Value: ")
++future_label.grid(column=0, row=3, sticky=tk.E)
++future_text = tk.StringVar()
++future_entry = ttk.Entry(frame, width=25, textvariable=future_text, state="readonly")
++future_entry.grid(column=1, row=3, columnspan=2)
++
++button1 = ttk.Button(frame, text="Calculate")
++button1.grid(column=1, row=4)
++
++button2 = ttk.Button(frame, text="Exit")
++button2.grid(column=2, row=4)
++
++
++def calculate_button():
++    monthly_investment = get_monthly_investment()
++    yearly_interest = get_interest_rate()
++    years = get_years()
++    future_value = get_future_value(monthly_investment)
++
++
++for child in frame.winfo_children():
++    child.grid_configure(padx=5, pady=3)
++
++first_window.mainloop()
