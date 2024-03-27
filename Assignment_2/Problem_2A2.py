@@ -21,15 +21,15 @@ class RandomIntList(list):
 
 
 def main():
+    print("Random Integer List")
+    while True:
+        number = int(input("\nHow many random integers should the list contain?: "))
+        if number < 1 or number > 100:
+            print("please enter a valid number")
+        else:
+            break
     choice = "y"
     while choice == "y":
-        print("Random Integer List")
-        while True:
-            number = int(input("\nHow many random integers should the list contain?: "))
-            if number < 1 or number > 100:
-                print("please enter a valid number")
-            else:
-                break
         print("\nRandom Integers")
         print("="*15)
         int_list = RandomIntList(number)
@@ -41,7 +41,7 @@ def main():
         average = int_list.get_average()
         print(f"Average: {average:.3f}")
         choice = input("\nContinue? (y/n): ")
-    print("Bye!")
+        print("Bye!")
 
 
 if __name__ == "__main__":
