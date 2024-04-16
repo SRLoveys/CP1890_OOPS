@@ -84,4 +84,26 @@ showerror(title, message)
 askyesno(title, message)
 askokcancel(title, message)
 """
-p
+
+"""
+The cursor() method of the connection object
+cursor()
+The execute() method of the cursor object
+execute(sql[, tuple])
+
+conn = sqlite3.connect(path_to_database_file)
+conn.row_factory = sqlite3.Row # Row is a constant
+return conn
+
+def close(conn):
+    conn.close()
+    
+def view_players(conn):
+    cur = conn.cursor()
+    query = """SELECT * FROM Player ORDER BY Wins DESC"""
+    cur.execute(query)
+    players = cur.fetchall()
+    for player in players:
+        # Selecting the columns and adding the totals to get the amount of games
+        print(f"{player[1]}\t\t\t{player[2]}\t\t {player[3]}\t\t   {player[4]}\t\t{player[2]+player[3]+player[4]}")
+"""
