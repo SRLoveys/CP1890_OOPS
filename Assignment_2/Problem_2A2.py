@@ -7,6 +7,9 @@ class RandomIntList(list):
             rand_int = random.randint(1, 100)
             self.append(rand_int)
 
+    def __str__(self):
+        return ', '.join(map(str, list(self)))
+
     def get_count(self):
         return len(self)
 
